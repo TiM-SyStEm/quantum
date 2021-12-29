@@ -10,7 +10,6 @@ public class Compositor {
 
     public Compositor(QWindow qWindow) {
         this.qWindow = qWindow;
-
     }
 
     public void compose(TaskBar taskbar) {
@@ -21,10 +20,15 @@ public class Compositor {
         viewport.render();
     }
 
+    public void compose(KeyboardInput input) {
+        input.show();
+    }
+
     public void compose() throws InterruptedException {
         Thread.sleep(450);
         Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
+        this.compose(qWindow.getInput());
     }
 }

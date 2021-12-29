@@ -17,11 +17,11 @@ public class Quantum {
 
     public static boolean gotWifi = false;
     public static int interfaceLength = 0xff; // Placeholder
-    public static int stringPosition = 0;
+    public static int keyboardCode = 0xff;
 
     public static void main(String[] args) throws InterruptedException {
         Viewport viewport = new Viewport(genHelloWorld());
-        QWindow window = new QWindow(viewport, 0);
+        QWindow window = new QWindow(viewport, 0, ">>");
         Compositor globalCompositor = new Compositor(window);
         while (true) {
             globalCompositor.compose();

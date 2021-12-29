@@ -255,6 +255,11 @@ public class IOBuffer {
         this.line = line;
     }
 
+    public void patch() {
+        int length = this.length();
+        this.deleteCharAt(length - 2); this.deleteCharAt(length - 2);
+    }
+
     public void addChar(char ch) {
         if (ch == '\n') {
             this.line++;

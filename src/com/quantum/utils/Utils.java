@@ -62,4 +62,13 @@ public class Utils {
     public static int getHeight() {
         return terminal.getTerminalHeight();
     }
+
+    public static int getCharacter() {
+        try {
+            return terminal.readVirtualKey(System.in);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
 }

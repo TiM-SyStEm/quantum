@@ -18,7 +18,7 @@ public class Viewport {
     public Viewport(ArrayList<QElement> elements) {
         this.elements = elements;
         this.stringAcc = new IOBuffer();
-        this.stringAcc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 4));
+        this.stringAcc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 5));
     }
 
     public void render() {
@@ -26,6 +26,7 @@ public class Viewport {
         for (QElement element : elements) {
             element.render(stringAcc);
         }
+        getStringAcc().patch();
         getStringAcc().render();
         clearBuffer();
         Utils.setColor(Colors.ANSI_RESET);
@@ -36,7 +37,7 @@ public class Viewport {
         this.stringAcc.setCursor(0);
         this.stringAcc.setNextCursor(Utils.getWidth());
         this.stringAcc.setLine(1);
-        this.stringAcc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 4));
+        this.stringAcc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
     }
 
 //    public void adjust() {
