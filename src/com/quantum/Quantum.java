@@ -21,7 +21,7 @@ public class Quantum {
 
     public static void main(String[] args) throws InterruptedException {
         Viewport viewport = new Viewport(genHelloWorld());
-        QWindow window = new QWindow(viewport, 0, ">>");
+        QWindow window = new QWindow(viewport, 0, ">>", "Preview");
         Compositor globalCompositor = new Compositor(window);
         while (true) {
             globalCompositor.compose();
@@ -30,8 +30,8 @@ public class Quantum {
 
     private static ArrayList<QElement> genHelloWorld() {
         ArrayList<QElement> elements = new ArrayList<>();
-        elements.add(new QTextElement("Hello, World!"));
-        elements.add(new QTextElement("\nAnd Hello, Dog!"));
+        elements.add(new QTextElement("OMG!\n"));
+        elements.add(new QTextElement("The quick brown fox\njumps over the lazy dog"));
         return elements;
     }
 }

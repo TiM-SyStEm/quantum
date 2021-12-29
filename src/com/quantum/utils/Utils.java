@@ -71,4 +71,12 @@ public class Utils {
         }
         return -1;
     }
+
+    public static String strDup(String str, int iters) {
+        StringBuilder buffer = new StringBuilder();
+        for (int i = 0; i < iters + 1; i++) {
+            buffer.append(str);
+        }
+        return buffer.toString();
+    }
 }

@@ -24,11 +24,16 @@ public class Compositor {
         input.show();
     }
 
+    public void compose(BName name) {
+        name.show();
+    }
+
     public void compose() throws InterruptedException {
         Thread.sleep(450);
         Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
+        this.compose(qWindow.getName());
         this.compose(qWindow.getInput());
     }
 }
