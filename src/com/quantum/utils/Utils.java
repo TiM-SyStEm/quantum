@@ -1,5 +1,6 @@
 package com.quantum.utils;
 
+import com.quantum.Quantum;
 import jline.Terminal;
 
 import java.io.IOException;
@@ -78,5 +79,9 @@ public class Utils {
             buffer.append(str);
         }
         return buffer.toString();
+    }
+
+    public static void breakKeyboard() {
+        Quantum.keyboardCode = Keys.NKBH;
     }
 }

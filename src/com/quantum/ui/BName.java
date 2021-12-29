@@ -1,5 +1,6 @@
 package com.quantum.ui;
 
+import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.Utils;
 
@@ -20,6 +21,7 @@ public class BName {
         int right = size - left;
         String format = "%" + left + "s%-" + right + "s";
         System.out.printf(String.format(format, " ", text).replaceAll(" ", "="));
+        Logger.ok("Window name '" + text + "' was rendered", 1);
         Utils.setColor(Colors.ANSI_RESET);
     }
 

@@ -1,6 +1,7 @@
 package com.quantum.ui;
 
 import com.quantum.Quantum;
+import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.Utils;
 
@@ -29,11 +30,12 @@ public class Compositor {
     }
 
     public void compose() throws InterruptedException {
-        Thread.sleep(450);
+        Thread.sleep(50);
         Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
         this.compose(qWindow.getName());
         this.compose(qWindow.getInput());
+        Logger.ok("Render was success", 5);
     }
 }

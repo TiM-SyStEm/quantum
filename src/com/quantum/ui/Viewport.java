@@ -2,6 +2,7 @@ package com.quantum.ui;
 
 import com.quantum.Quantum;
 import com.quantum.elements.QElement;
+import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.IOBuffer;
 import com.quantum.utils.Utils;
@@ -26,9 +27,13 @@ public class Viewport {
         for (QElement element : elements) {
             element.render(stringAcc);
         }
+        Logger.ok("Viewport rendering almost finished", 1);
         getStringAcc().patch();
+        Logger.ok("Viewport buffer was patched from rubbish", 1);
         getStringAcc().render();
+        Logger.ok("Rendering viewport", 5);
         clearBuffer();
+        Logger.ok("Buffer was cleaned", 1);
         Utils.setColor(Colors.ANSI_RESET);
     }
 

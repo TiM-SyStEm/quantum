@@ -3,6 +3,7 @@ package com.quantum.elements;
 import com.quantum.utils.IOBuffer;
 
 public class QTextElement implements QElement {
+
     private String text;
 
     public QTextElement(String text) {
@@ -11,11 +12,7 @@ public class QTextElement implements QElement {
 
     @Override
     public void render(IOBuffer acc) {
-        char[] chars = text.toCharArray();
-        for (int i = 0; i < text.length(); i++) {
-            char ch = chars[i];
-            acc.addChar(ch);
-        }
+        acc.addString(text);
     }
 
     public String getText() {

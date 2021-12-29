@@ -13,10 +13,6 @@ public class TaskBar {
         this.notifications = nots;
     }
 
-    static {
-        new Thread(new WIFIChecker()).start();
-    }
-
     public void show() {
         // 0 Notes | Date | WIFI? | SHUTDOWN (CTRL+C)
         String date = Utils.getDate();

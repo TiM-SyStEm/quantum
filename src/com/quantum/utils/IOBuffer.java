@@ -260,6 +260,12 @@ public class IOBuffer {
         this.deleteCharAt(length - 2); this.deleteCharAt(length - 2);
     }
 
+    public void addString(String str) {
+        for (char ch : str.toCharArray()) {
+            addChar(ch);
+        }
+    }
+
     public void addChar(char ch) {
         if (ch == '\n') {
             this.line++;
