@@ -24,7 +24,7 @@ public class TaskBar {
         acc.append(space).append("|").append(space);
         acc.append(Quantum.gotWifi ? "^" : "X");
         acc.append(space).append("|").append(space);
-        acc.append("SHUTDOWN (CTRL-C)  ").append(space);
+        acc.append("SHUTDOWN (CTRL-C) ").append(space).append(Quantum.pointer);
         acc.append(Colors.ANSI_RESET);
         Quantum.interfaceLength = acc.toString().length();
         System.out.println(acc.toString());

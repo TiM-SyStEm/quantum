@@ -1,6 +1,7 @@
 package com.quantum;
 
 import com.quantum.elements.QElement;
+import com.quantum.elements.QEvent;
 import com.quantum.elements.QRudeInputField;
 import com.quantum.elements.QTextElement;
 import com.quantum.logger.Logger;
@@ -18,6 +19,7 @@ public class Quantum {
     public static boolean gotWifi = false;
     public static int interfaceLength = 0xff; // Placeholder
     public static int keyboardCode = Keys.NKBH; // Placeholder
+    public static int pointer = 1;
 
     public static void main(String[] args) throws InterruptedException {
         Logger.prepare();
@@ -26,12 +28,14 @@ public class Quantum {
         try {
             Viewport viewport = new Viewport(genHelloWorld());
             Logger.ok("Viewport creation success", 5);
-            QWindow window = new QWindow(viewport, 0, ">>", "Preview");
+            QWindow window = new QWindow(viewport, 0, ">>", "@Kernel@Console@");
             Logger.ok("Abstract window creation success", 5);
             Compositor globalCompositor = new Compositor(window);
             Logger.ok("Compositor creation success", 5);
             while (true) {
-                globalCompositor.compose();
+                synchronized (new Object()) {
+                    globalCompositor.compose();
+                }
                 Logger.ok("Tick", 0);
             }
         } catch (Exception ex) {
@@ -48,8 +52,13 @@ public class Quantum {
 
     private static ArrayList<QElement> genHelloWorld() {
         ArrayList<QElement> elements = new ArrayList<>();
-        elements.add(new QTextElement("OMG!\n"));
-        elements.add(new QRudeInputField(">> "));
+        elements.add(new QTextElement("Write text, please!\n"));
+        elements.add(new QRudeInputField(">> ", Quantum::genFields, 2));
         return elements;
+    }
+
+    private static void genFields(QElement caller, Viewport viewport) {
+        viewport.add(new QTextElement("\n" + caller.toString() + "\n"));
+        viewport.add(new QRudeInputField(">> ", Quantum::genFields, 4));
     }
 }

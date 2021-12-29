@@ -1,5 +1,9 @@
 package com.quantum.utils;
 
+import com.quantum.Quantum;
+import com.quantum.logger.Logger;
+
+import java.util.HashMap;
 import java.util.stream.IntStream;
 
 public class IOBuffer {
@@ -7,10 +11,13 @@ public class IOBuffer {
     private int nextCursor;
     private int line;
     private int cursor;
+    private HashMap<Integer, Integer> lines;
     private StringBuilder builder;
 
     public IOBuffer() {
         this.builder = new StringBuilder();
+        this.lines = new HashMap<>();
+        lines.put(0, 1);
         this.cursor = 0;
         this.nextCursor = Utils.getWidth();
         this.line = 1;
@@ -201,7 +208,19 @@ public class IOBuffer {
     }
 
     public void setCharAt(int index, char ch) {
+        if (index == this.length()) {
+            this.clear();
+            builder.setCharAt(0, ch);
+        } else
         builder.setCharAt(index, ch);
+    }
+
+    private void clear() {
+        this.setLength(0);
+        this.setCursor(0);
+        this.setNextCursor(Utils.getWidth());
+        this.setLine(1);
+        this.setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
     }
 
     public String substring(int start) {
@@ -229,7 +248,6 @@ public class IOBuffer {
     }
 
     // Cursor methods
-
 
     public int getCursor() {
         return cursor;
@@ -270,6 +288,7 @@ public class IOBuffer {
         if (ch == '\n') {
             this.line++;
             this.setCursor(this.nextCursor);
+            lines.put(this.cursor, this.line);
             this.setNextCursor(Utils.getWidth() * this.line);
         } else {
             this.setCharAt(this.cursor, ch);
@@ -278,8 +297,21 @@ public class IOBuffer {
     }
 
     public void render() {
-        for (char ch : builder.toString().toCharArray()) {
-            System.out.print(ch == '\0' ? ' ' : ch);
+        // I'm stuck at this for 1-2 hours =(
+        char[] chars = builder.toString().toCharArray();
+        int targetLine = Quantum.pointer;
+        int currentLine = 1;
+        for (int i = 0; i < chars.length; i++) {
+            char ch = chars[i];
+            int currentPos = i;
+            if (lines.containsKey(currentPos) && lines.get(currentPos) == targetLine) {
+                Utils.setColor(Colors.ANSI_RESET);
+                Utils.setColor(Colors.ANSI_YELLOW_BACKGROUND);
+                System.out.print(ch == '\0' ? ' ' : ch);
+                Utils.setColor(Colors.ANSI_RESET);
+                Utils.setColor(Colors.ANSI_PURPLE_BACKGROUND);
+            } else
+                System.out.print(ch == '\0' ? ' ' : ch);
         }
     }
 

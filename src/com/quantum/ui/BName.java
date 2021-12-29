@@ -20,7 +20,7 @@ public class BName {
         int left = size/2 - text.length();
         int right = size - left;
         String format = "%" + left + "s%-" + right + "s";
-        System.out.printf(String.format(format, " ", text).replaceAll(" ", "="));
+        System.out.printf(String.format(format, " ", text).replaceAll(" ", "=").replaceAll("@", " "));
         Logger.ok("Window name '" + text + "' was rendered", 1);
         Utils.setColor(Colors.ANSI_RESET);
     }

@@ -8,6 +8,9 @@ public class Services {
     public static Thread keyboard = new Thread(new KeyboardChecker());
 
     public static void start() {
+        timer = new Thread(new LogTimer());
+        wifi = new Thread(new WIFIChecker());
+        keyboard = new Thread(new KeyboardChecker());
         wifi.start(); keyboard.start(); timer.start();
     }
 

@@ -1,4 +1,4 @@
-[OK] [1] Services activated success.
+[OK] [0] Services activated success.
 [OK] [1] Viewport creation success.
 [OK] [1] Abstract window creation success.
 [OK] [1] Compositor creation success.
@@ -6,7 +6,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -14,7 +14,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -22,7 +22,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -30,7 +30,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -38,7 +38,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -46,7 +46,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -54,7 +54,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -62,7 +62,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -70,7 +70,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -78,7 +78,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -86,15 +86,7 @@
 [OK] [1] Viewport buffer was patched from rubbish.
 [OK] [1] Rendering viewport.
 [OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
-[OK] [1] Input was received.
-[OK] [1] Render was success.
-[OK] [1] Tick.
-[OK] [1] Viewport rendering almost finished.
-[OK] [1] Viewport buffer was patched from rubbish.
-[OK] [1] Rendering viewport.
-[OK] [1] Buffer was cleaned.
-[OK] [1] Window name 'Preview' was rendered.
+[OK] [1] Window name '@Kernel@Console@' was rendered.
 [OK] [1] Input was received.
 [OK] [1] Render was success.
 [OK] [1] Tick.
@@ -102,7 +94,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -110,7 +102,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -118,7 +110,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -126,7 +118,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -134,7 +126,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -142,7 +134,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -150,7 +142,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -158,7 +150,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -166,7 +158,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -174,7 +166,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -182,7 +174,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -190,7 +182,7 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -198,7 +190,15 @@
 [OK] [2] Viewport buffer was patched from rubbish.
 [OK] [2] Rendering viewport.
 [OK] [2] Buffer was cleaned.
-[OK] [2] Window name 'Preview' was rendered.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
+[OK] [2] Input was received.
+[OK] [2] Render was success.
+[OK] [2] Tick.
+[OK] [2] Viewport rendering almost finished.
+[OK] [2] Viewport buffer was patched from rubbish.
+[OK] [2] Rendering viewport.
+[OK] [2] Buffer was cleaned.
+[OK] [2] Window name '@Kernel@Console@' was rendered.
 [OK] [2] Input was received.
 [OK] [2] Render was success.
 [OK] [2] Tick.
@@ -206,7 +206,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -214,7 +214,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -222,7 +222,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -230,7 +230,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -238,7 +238,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -246,7 +246,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -254,7 +254,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -262,7 +262,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -270,7 +270,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -278,7 +278,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -286,7 +286,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -294,7 +294,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -302,15 +302,7 @@
 [OK] [3] Viewport buffer was patched from rubbish.
 [OK] [3] Rendering viewport.
 [OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
-[OK] [3] Input was received.
-[OK] [3] Render was success.
-[OK] [3] Tick.
-[OK] [3] Viewport rendering almost finished.
-[OK] [3] Viewport buffer was patched from rubbish.
-[OK] [3] Rendering viewport.
-[OK] [3] Buffer was cleaned.
-[OK] [3] Window name 'Preview' was rendered.
+[OK] [3] Window name '@Kernel@Console@' was rendered.
 [OK] [3] Input was received.
 [OK] [3] Render was success.
 [OK] [3] Tick.
@@ -318,7 +310,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -326,7 +318,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -334,7 +326,16 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
+[OK] [4] Input was received.
+[OK] [4] Render was success.
+[OK] [4] Tick.
+[OK] [4] Got pointer down.
+[OK] [4] Viewport rendering almost finished.
+[OK] [4] Viewport buffer was patched from rubbish.
+[OK] [4] Rendering viewport.
+[OK] [4] Buffer was cleaned.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -342,7 +343,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -350,7 +351,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -358,7 +359,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -366,7 +367,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -374,7 +375,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -382,7 +383,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -390,7 +391,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -398,7 +399,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -406,15 +407,7 @@
 [OK] [4] Viewport buffer was patched from rubbish.
 [OK] [4] Rendering viewport.
 [OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
-[OK] [4] Input was received.
-[OK] [4] Render was success.
-[OK] [4] Tick.
-[OK] [4] Viewport rendering almost finished.
-[OK] [4] Viewport buffer was patched from rubbish.
-[OK] [4] Rendering viewport.
-[OK] [4] Buffer was cleaned.
-[OK] [4] Window name 'Preview' was rendered.
+[OK] [4] Window name '@Kernel@Console@' was rendered.
 [OK] [4] Input was received.
 [OK] [4] Render was success.
 [OK] [4] Tick.
@@ -422,7 +415,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -430,7 +423,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -438,7 +431,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -446,7 +439,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -454,7 +447,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -462,7 +455,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -470,7 +463,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -478,7 +471,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -486,7 +479,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -494,7 +487,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -502,7 +495,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -510,7 +503,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -518,15 +511,7 @@
 [OK] [5] Viewport buffer was patched from rubbish.
 [OK] [5] Rendering viewport.
 [OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
-[OK] [5] Input was received.
-[OK] [5] Render was success.
-[OK] [5] Tick.
-[OK] [5] Viewport rendering almost finished.
-[OK] [5] Viewport buffer was patched from rubbish.
-[OK] [5] Rendering viewport.
-[OK] [5] Buffer was cleaned.
-[OK] [5] Window name 'Preview' was rendered.
+[OK] [5] Window name '@Kernel@Console@' was rendered.
 [OK] [5] Input was received.
 [OK] [5] Render was success.
 [OK] [5] Tick.
@@ -534,7 +519,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -542,7 +527,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -550,7 +535,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -558,7 +543,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -566,7 +551,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -574,7 +559,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -582,7 +567,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -590,7 +575,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -598,7 +583,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -606,7 +591,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -614,7 +599,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -622,7 +607,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -630,7 +615,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -638,7 +623,7 @@
 [OK] [6] Viewport buffer was patched from rubbish.
 [OK] [6] Rendering viewport.
 [OK] [6] Buffer was cleaned.
-[OK] [6] Window name 'Preview' was rendered.
+[OK] [6] Window name '@Kernel@Console@' was rendered.
 [OK] [6] Input was received.
 [OK] [6] Render was success.
 [OK] [6] Tick.
@@ -646,7 +631,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -654,7 +639,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -662,7 +647,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -670,7 +655,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -678,7 +663,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -686,7 +671,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -694,7 +679,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -702,7 +687,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -710,7 +695,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -718,7 +703,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -726,7 +711,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -734,7 +719,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -742,15 +727,7 @@
 [OK] [7] Viewport buffer was patched from rubbish.
 [OK] [7] Rendering viewport.
 [OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
-[OK] [7] Input was received.
-[OK] [7] Render was success.
-[OK] [7] Tick.
-[OK] [7] Viewport rendering almost finished.
-[OK] [7] Viewport buffer was patched from rubbish.
-[OK] [7] Rendering viewport.
-[OK] [7] Buffer was cleaned.
-[OK] [7] Window name 'Preview' was rendered.
+[OK] [7] Window name '@Kernel@Console@' was rendered.
 [OK] [7] Input was received.
 [OK] [7] Render was success.
 [OK] [7] Tick.
@@ -758,7 +735,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -766,7 +743,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -774,7 +751,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -782,7 +759,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -790,7 +767,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -798,7 +775,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -806,7 +783,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -814,7 +791,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -822,7 +799,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -830,7 +807,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -838,7 +815,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -846,7 +823,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -854,7 +831,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
+[OK] [8] Window name '@Kernel@Console@' was rendered.
 [OK] [8] Input was received.
 [OK] [8] Render was success.
 [OK] [8] Tick.
@@ -862,15 +839,7 @@
 [OK] [8] Viewport buffer was patched from rubbish.
 [OK] [8] Rendering viewport.
 [OK] [8] Buffer was cleaned.
-[OK] [8] Window name 'Preview' was rendered.
-[OK] [8] Input was received.
-[OK] [8] Render was success.
-[OK] [8] Tick.
-[OK] [9] Viewport rendering almost finished.
-[OK] [9] Viewport buffer was patched from rubbish.
-[OK] [9] Rendering viewport.
-[OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -878,7 +847,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -886,7 +855,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -894,7 +863,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -902,7 +871,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -910,7 +879,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -918,7 +887,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -926,7 +895,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -934,7 +903,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -942,7 +911,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -950,7 +919,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -958,7 +927,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -966,7 +935,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -974,7 +943,7 @@
 [OK] [9] Viewport buffer was patched from rubbish.
 [OK] [9] Rendering viewport.
 [OK] [9] Buffer was cleaned.
-[OK] [9] Window name 'Preview' was rendered.
+[OK] [9] Window name '@Kernel@Console@' was rendered.
 [OK] [9] Input was received.
 [OK] [9] Render was success.
 [OK] [9] Tick.
@@ -982,7 +951,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -990,7 +959,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -998,7 +967,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1006,7 +975,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1014,7 +983,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1022,7 +991,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1030,7 +999,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1038,7 +1007,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1046,7 +1015,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1054,7 +1023,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1062,7 +1031,7 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
@@ -1070,23 +1039,15 @@
 [OK] [10] Viewport buffer was patched from rubbish.
 [OK] [10] Rendering viewport.
 [OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
+[OK] [10] Window name '@Kernel@Console@' was rendered.
 [OK] [10] Input was received.
 [OK] [10] Render was success.
 [OK] [10] Tick.
 [OK] [10] Viewport rendering almost finished.
 [OK] [10] Viewport buffer was patched from rubbish.
-[OK] [10] Rendering viewport.
-[OK] [10] Buffer was cleaned.
-[OK] [10] Window name 'Preview' was rendered.
-[OK] [10] Input was received.
-[OK] [10] Render was success.
-[OK] [10] Tick.
-[OK] [11] Viewport rendering almost finished.
-[OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1094,7 +1055,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1102,7 +1063,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1110,7 +1071,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1118,7 +1079,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1126,7 +1087,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1134,7 +1095,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1142,7 +1103,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1150,7 +1111,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1158,7 +1119,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1166,7 +1127,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1174,7 +1135,7 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
@@ -1182,15 +1143,15 @@
 [OK] [11] Viewport buffer was patched from rubbish.
 [OK] [11] Rendering viewport.
 [OK] [11] Buffer was cleaned.
-[OK] [11] Window name 'Preview' was rendered.
+[OK] [11] Window name '@Kernel@Console@' was rendered.
 [OK] [11] Input was received.
 [OK] [11] Render was success.
 [OK] [11] Tick.
-[OK] [11] Viewport rendering almost finished.
-[OK] [11] Viewport buffer was patched from rubbish.
-[OK] [11] Rendering viewport.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1198,7 +1159,7 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1206,7 +1167,7 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1214,7 +1175,7 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1222,7 +1183,7 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1230,7 +1191,7 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
@@ -1238,11 +1199,2869 @@
 [OK] [12] Viewport buffer was patched from rubbish.
 [OK] [12] Rendering viewport.
 [OK] [12] Buffer was cleaned.
-[OK] [12] Window name 'Preview' was rendered.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
 [OK] [12] Input was received.
 [OK] [12] Render was success.
 [OK] [12] Tick.
-[ERR] [12] Caught exception. Entering rescue mode.
-[OK] [12] Changing terminal mode.
-[OK] [12] Stopping all services.
-[OK] [12] Killing kernel parts...
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [12] Viewport rendering almost finished.
+[OK] [12] Viewport buffer was patched from rubbish.
+[OK] [12] Rendering viewport.
+[OK] [12] Buffer was cleaned.
+[OK] [12] Window name '@Kernel@Console@' was rendered.
+[OK] [12] Input was received.
+[OK] [12] Render was success.
+[OK] [12] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Got pointer down.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [13] Buffer was cleaned.
+[OK] [13] Window name '@Kernel@Console@' was rendered.
+[OK] [13] Input was received.
+[OK] [13] Render was success.
+[OK] [13] Tick.
+[OK] [13] Viewport rendering almost finished.
+[OK] [13] Viewport buffer was patched from rubbish.
+[OK] [13] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [14] Viewport rendering almost finished.
+[OK] [14] Viewport buffer was patched from rubbish.
+[OK] [14] Rendering viewport.
+[OK] [14] Buffer was cleaned.
+[OK] [14] Window name '@Kernel@Console@' was rendered.
+[OK] [14] Input was received.
+[OK] [14] Render was success.
+[OK] [14] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [15] Viewport rendering almost finished.
+[OK] [15] Viewport buffer was patched from rubbish.
+[OK] [15] Rendering viewport.
+[OK] [15] Buffer was cleaned.
+[OK] [15] Window name '@Kernel@Console@' was rendered.
+[OK] [15] Input was received.
+[OK] [15] Render was success.
+[OK] [15] Tick.
+[OK] [16] Got pointer down.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [16] Viewport rendering almost finished.
+[OK] [16] Viewport buffer was patched from rubbish.
+[OK] [16] Rendering viewport.
+[OK] [16] Buffer was cleaned.
+[OK] [16] Window name '@Kernel@Console@' was rendered.
+[OK] [16] Input was received.
+[OK] [16] Render was success.
+[OK] [16] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [17] Buffer was cleaned.
+[OK] [17] Window name '@Kernel@Console@' was rendered.
+[OK] [17] Input was received.
+[OK] [17] Render was success.
+[OK] [17] Tick.
+[OK] [17] Viewport rendering almost finished.
+[OK] [17] Viewport buffer was patched from rubbish.
+[OK] [17] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [18] Viewport rendering almost finished.
+[OK] [18] Viewport buffer was patched from rubbish.
+[OK] [18] Rendering viewport.
+[OK] [18] Buffer was cleaned.
+[OK] [18] Window name '@Kernel@Console@' was rendered.
+[OK] [18] Input was received.
+[OK] [18] Render was success.
+[OK] [18] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [19] Viewport rendering almost finished.
+[OK] [19] Viewport buffer was patched from rubbish.
+[OK] [19] Rendering viewport.
+[OK] [19] Buffer was cleaned.
+[OK] [19] Window name '@Kernel@Console@' was rendered.
+[OK] [19] Input was received.
+[OK] [19] Render was success.
+[OK] [19] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [20] Viewport rendering almost finished.
+[OK] [20] Viewport buffer was patched from rubbish.
+[OK] [20] Rendering viewport.
+[OK] [20] Buffer was cleaned.
+[OK] [20] Window name '@Kernel@Console@' was rendered.
+[OK] [20] Input was received.
+[OK] [20] Render was success.
+[OK] [20] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [21] Viewport rendering almost finished.
+[OK] [21] Viewport buffer was patched from rubbish.
+[OK] [21] Rendering viewport.
+[OK] [21] Buffer was cleaned.
+[OK] [21] Window name '@Kernel@Console@' was rendered.
+[OK] [21] Input was received.
+[OK] [21] Render was success.
+[OK] [21] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Got pointer down.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [22] Viewport rendering almost finished.
+[OK] [22] Viewport buffer was patched from rubbish.
+[OK] [22] Rendering viewport.
+[OK] [22] Buffer was cleaned.
+[OK] [22] Window name '@Kernel@Console@' was rendered.
+[OK] [22] Input was received.
+[OK] [22] Render was success.
+[OK] [22] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Got pointer up.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Got pointer up.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Got pointer up.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [23] Viewport rendering almost finished.
+[OK] [23] Viewport buffer was patched from rubbish.
+[OK] [23] Rendering viewport.
+[OK] [23] Buffer was cleaned.
+[OK] [23] Window name '@Kernel@Console@' was rendered.
+[OK] [23] Input was received.
+[OK] [23] Render was success.
+[OK] [23] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [24] Viewport rendering almost finished.
+[OK] [24] Viewport buffer was patched from rubbish.
+[OK] [24] Rendering viewport.
+[OK] [24] Buffer was cleaned.
+[OK] [24] Window name '@Kernel@Console@' was rendered.
+[OK] [24] Input was received.
+[OK] [24] Render was success.
+[OK] [24] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [25] Viewport rendering almost finished.
+[OK] [25] Viewport buffer was patched from rubbish.
+[OK] [25] Rendering viewport.
+[OK] [25] Buffer was cleaned.
+[OK] [25] Window name '@Kernel@Console@' was rendered.
+[OK] [25] Input was received.
+[OK] [25] Render was success.
+[OK] [25] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [26] Viewport rendering almost finished.
+[OK] [26] Viewport buffer was patched from rubbish.
+[OK] [26] Rendering viewport.
+[OK] [26] Buffer was cleaned.
+[OK] [26] Window name '@Kernel@Console@' was rendered.
+[OK] [26] Input was received.
+[OK] [26] Render was success.
+[OK] [26] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [27] Viewport rendering almost finished.
+[OK] [27] Viewport buffer was patched from rubbish.
+[OK] [27] Rendering viewport.
+[OK] [27] Buffer was cleaned.
+[OK] [27] Window name '@Kernel@Console@' was rendered.
+[OK] [27] Input was received.
+[OK] [27] Render was success.
+[OK] [27] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [28] Viewport rendering almost finished.
+[OK] [28] Viewport buffer was patched from rubbish.
+[OK] [28] Rendering viewport.
+[OK] [28] Buffer was cleaned.
+[OK] [28] Window name '@Kernel@Console@' was rendered.
+[OK] [28] Input was received.
+[OK] [28] Render was success.
+[OK] [28] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [29] Viewport rendering almost finished.
+[OK] [29] Viewport buffer was patched from rubbish.
+[OK] [29] Rendering viewport.
+[OK] [29] Buffer was cleaned.
+[OK] [29] Window name '@Kernel@Console@' was rendered.
+[OK] [29] Input was received.
+[OK] [29] Render was success.
+[OK] [29] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [30] Viewport rendering almost finished.
+[OK] [30] Viewport buffer was patched from rubbish.
+[OK] [30] Rendering viewport.
+[OK] [30] Buffer was cleaned.
+[OK] [30] Window name '@Kernel@Console@' was rendered.
+[OK] [30] Input was received.
+[OK] [30] Render was success.
+[OK] [30] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [31] Viewport rendering almost finished.
+[OK] [31] Viewport buffer was patched from rubbish.
+[OK] [31] Rendering viewport.
+[OK] [31] Buffer was cleaned.
+[OK] [31] Window name '@Kernel@Console@' was rendered.
+[OK] [31] Input was received.
+[OK] [31] Render was success.
+[OK] [31] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [32] Viewport rendering almost finished.
+[OK] [32] Viewport buffer was patched from rubbish.
+[OK] [32] Rendering viewport.
+[OK] [32] Buffer was cleaned.
+[OK] [32] Window name '@Kernel@Console@' was rendered.
+[OK] [32] Input was received.
+[OK] [32] Render was success.
+[OK] [32] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [33] Viewport rendering almost finished.
+[OK] [33] Viewport buffer was patched from rubbish.
+[OK] [33] Rendering viewport.
+[OK] [33] Buffer was cleaned.
+[OK] [33] Window name '@Kernel@Console@' was rendered.
+[OK] [33] Input was received.
+[OK] [33] Render was success.
+[OK] [33] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [34] Viewport rendering almost finished.
+[OK] [34] Viewport buffer was patched from rubbish.
+[OK] [34] Rendering viewport.
+[OK] [34] Buffer was cleaned.
+[OK] [34] Window name '@Kernel@Console@' was rendered.
+[OK] [34] Input was received.
+[OK] [34] Render was success.
+[OK] [34] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [35] Buffer was cleaned.
+[OK] [35] Window name '@Kernel@Console@' was rendered.
+[OK] [35] Input was received.
+[OK] [35] Render was success.
+[OK] [35] Tick.
+[OK] [35] Viewport rendering almost finished.
+[OK] [35] Viewport buffer was patched from rubbish.
+[OK] [35] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [36] Rendering viewport.
+[OK] [36] Buffer was cleaned.
+[OK] [36] Window name '@Kernel@Console@' was rendered.
+[OK] [36] Input was received.
+[OK] [36] Render was success.
+[OK] [36] Tick.
+[OK] [36] Viewport rendering almost finished.
+[OK] [36] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [37] Buffer was cleaned.
+[OK] [37] Window name '@Kernel@Console@' was rendered.
+[OK] [37] Input was received.
+[OK] [37] Render was success.
+[OK] [37] Tick.
+[OK] [37] Viewport rendering almost finished.
+[OK] [37] Viewport buffer was patched from rubbish.
+[OK] [37] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [38] Buffer was cleaned.
+[OK] [38] Window name '@Kernel@Console@' was rendered.
+[OK] [38] Input was received.
+[OK] [38] Render was success.
+[OK] [38] Tick.
+[OK] [38] Viewport rendering almost finished.
+[OK] [38] Viewport buffer was patched from rubbish.
+[OK] [38] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [39] Buffer was cleaned.
+[OK] [39] Window name '@Kernel@Console@' was rendered.
+[OK] [39] Input was received.
+[OK] [39] Render was success.
+[OK] [39] Tick.
+[OK] [39] Viewport rendering almost finished.
+[OK] [39] Viewport buffer was patched from rubbish.
+[OK] [39] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [40] Buffer was cleaned.
+[OK] [40] Window name '@Kernel@Console@' was rendered.
+[OK] [40] Input was received.
+[OK] [40] Render was success.
+[OK] [40] Tick.
+[OK] [40] Viewport rendering almost finished.
+[OK] [40] Viewport buffer was patched from rubbish.
+[OK] [40] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.
+[OK] [41] Viewport rendering almost finished.
+[OK] [41] Viewport buffer was patched from rubbish.
+[OK] [41] Rendering viewport.
+[OK] [41] Buffer was cleaned.
+[OK] [41] Window name '@Kernel@Console@' was rendered.
+[OK] [41] Input was received.
+[OK] [41] Render was success.
+[OK] [41] Tick.

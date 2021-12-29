@@ -23,7 +23,7 @@ public class Rescue {
         while (true) {
             String input = prompt();
             if (input.equalsIgnoreCase("type")) {
-                System.out.println(ex.getCause());
+                System.out.println(ex.getClass().getSimpleName());
             } else if (input.equalsIgnoreCase("msg")) {
                 System.out.println(ex.getMessage());
             } else if (input.equalsIgnoreCase("repair")) {

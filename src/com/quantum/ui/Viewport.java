@@ -5,6 +5,7 @@ import com.quantum.elements.QElement;
 import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.IOBuffer;
+import com.quantum.utils.Keys;
 import com.quantum.utils.Utils;
 import jline.Terminal;
 
@@ -24,8 +25,9 @@ public class Viewport {
 
     public void render() {
         Utils.setColor(Colors.ANSI_PURPLE_BACKGROUND);
-        for (QElement element : elements) {
-            element.render(stringAcc);
+        for (int i = 0; i < elements.size(); i++) {
+            pointerKeys();
+            elements.get(i).render(stringAcc, this);
         }
         Logger.ok("Viewport rendering almost finished", 1);
         getStringAcc().patch();
@@ -37,6 +39,18 @@ public class Viewport {
         Utils.setColor(Colors.ANSI_RESET);
     }
 
+    private void pointerKeys() {
+        if (Quantum.keyboardCode == Keys.PTR_UP) {
+            Logger.ok("Got pointer up", 1);
+            Quantum.pointer--;
+            Utils.breakKeyboard();
+        } else if (Quantum.keyboardCode == Keys.PTR_DOWN) {
+            Logger.ok("Got pointer down", 1);
+            Quantum.pointer++;
+            Utils.breakKeyboard();
+        }
+    }
+
     public void clearBuffer() {
         this.stringAcc.setLength(0);
         this.stringAcc.setCursor(0);
@@ -45,7 +59,14 @@ public class Viewport {
         this.stringAcc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
     }
 
-//    public void adjust() {
+    public QElement get(int index) {
+        return elements.get(index);
+    }
+
+    public boolean add(QElement qElement) {
+        return elements.add(qElement);
+    }
+    //    public void adjust() {
 //        IOBuffer acc = new IOBuffer();
 //        acc.setLength(Quantum.interfaceLength * (Utils.getHeight() - 3));
 //        int line = 0;
