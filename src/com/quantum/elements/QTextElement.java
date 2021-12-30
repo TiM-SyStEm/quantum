@@ -12,7 +12,7 @@ public class QTextElement implements QElement {
 
     public QTextElement(String text) {
         this.text = text;
-        Utils.advanceSleep(12);
+        Utils.advanceSleep(10);
     }
 
     @Override

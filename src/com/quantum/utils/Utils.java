@@ -3,6 +3,7 @@ package com.quantum.utils;
 import com.quantum.Quantum;
 import jline.Terminal;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -27,12 +28,9 @@ public class Utils {
 
     public static void clear() {
         Utils.exec("clear");
-        Utils.resetSleep();
+        System.out.flush();
     }
 
-    private static void resetSleep() {
-        Quantum.sleepConstant = 50;
-    }
 
     public static boolean netIsAvailable() {
         try {
@@ -90,6 +88,20 @@ public class Utils {
     }
 
     public static void advanceSleep(int i) {
-        Quantum.sleepConstant += i;
+        // Unusable
+    }
+
+    public static boolean setDirectory(String directory_name)
+    {
+        boolean result = false;  // Boolean indicating whether directory was set
+        File directory;       // Desired current working directory
+
+        directory = new File(directory_name).getAbsoluteFile();
+        if (directory.exists() || directory.mkdirs())
+        {
+            result = (System.setProperty("user.dir", directory.getAbsolutePath()) != null);
+        }
+
+        return result;
     }
 }

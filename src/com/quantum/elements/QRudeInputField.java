@@ -18,7 +18,7 @@ public class QRudeInputField implements QElement {
         this.buffer = new StringBuilder();
         this.event = event;
         this.requiredPointer = ptr;
-        Utils.advanceSleep(50);
+        Utils.advanceSleep(20);
     }
 
     @Override

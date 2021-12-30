@@ -4,6 +4,7 @@ import com.quantum.elements.QElement;
 import com.quantum.elements.QEvent;
 import com.quantum.elements.QRudeInputField;
 import com.quantum.elements.QTextElement;
+import com.quantum.kernel.Console;
 import com.quantum.logger.Logger;
 import com.quantum.rescue.Rescue;
 import com.quantum.ui.Compositor;
@@ -12,6 +13,7 @@ import com.quantum.ui.TaskBar;
 import com.quantum.ui.Viewport;
 import com.quantum.utils.*;
 
+import java.awt.image.Kernel;
 import java.util.ArrayList;
 
 public class Quantum {
@@ -20,23 +22,14 @@ public class Quantum {
     public static int interfaceLength = 0xff; // Placeholder
     public static int keyboardCode = Keys.NKBH; // Placeholder
     public static int pointer = 1;
-    public static int sleepConstant = 300;
+    public static int sleepConstant = 50;
 
     public static void main(String[] args) throws InterruptedException {
         Logger.prepare();
         Services.start();
         Logger.ok("Services activated success", 2);
         try {
-            Viewport viewport = new Viewport(genHelloWorld());
-            Logger.ok("Viewport creation success", 5);
-            QWindow window = new QWindow(viewport, 0, ">>", "@Kernel@Console@");
-            Logger.ok("Abstract window creation success", 5);
-            Compositor globalCompositor = new Compositor(window);
-            Logger.ok("Compositor creation success", 5);
-            while (true) {
-                globalCompositor.compose();
-                Logger.ok("Tick", 0);
-            }
+            Console.start();
         } catch (Exception ex) {
             Logger.err("Caught exception. Entering rescue mode", 5);
             Utils.setColor(Colors.ANSI_BLACK_BACKGROUND);
