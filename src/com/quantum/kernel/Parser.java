@@ -1,7 +1,9 @@
 package com.quantum.kernel;
 
 import com.quantum.elements.QElement;
+import com.quantum.elements.QTextElement;
 import com.quantum.ui.Viewport;
+import com.quantum.utils.Utils;
 
 import java.io.File;
 
@@ -10,7 +12,19 @@ public class Parser {
         String[] parts = command.split(" ");
         if (parts[0].equalsIgnoreCase("cdr")) {
             cdr("quantum/" + Console.dir, viewport);
+        } else if (parts[0].equalsIgnoreCase("clear")) {
+            clear(caller, viewport);
+        } else {
+            unknown(command, caller, viewport);
         }
+    }
+
+    private static void unknown(String command, QElement caller, Viewport viewport) {
+        Console.printText(caller, viewport, "\n" + "Can't find command '" + command + "'\n");
+    }
+
+    private static void clear(QElement caller, Viewport viewport) {
+        Console.printText(caller, viewport, Utils.strDup("\n", Utils.getHeight() - 2));
     }
 
     public static void cdr(String path, Viewport v) {

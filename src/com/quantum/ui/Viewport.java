@@ -43,6 +43,9 @@ public class Viewport {
         if (Quantum.keyboardCode == Keys.PTR_UP) {
             Logger.ok("Got pointer up", 1);
             Quantum.pointer--;
+            if (Quantum.pointer == Utils.getHeight() - 3) {
+                stringAcc.pushBuffer();
+            }
             Utils.breakKeyboard();
         } else if (Quantum.keyboardCode == Keys.PTR_DOWN) {
             Logger.ok("Got pointer down", 1);

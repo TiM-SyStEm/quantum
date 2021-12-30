@@ -7,6 +7,7 @@ import com.quantum.utils.Keys;
 import com.quantum.utils.Services;
 import com.quantum.utils.Utils;
 
+import java.io.IOException;
 import java.util.Queue;
 import java.util.Scanner;
 
@@ -14,12 +15,12 @@ public class Rescue {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void main(Exception ex) throws InterruptedException {
+    public static void main(Exception ex) throws InterruptedException, IOException {
         System.out.println("Caught exception: " + ex.getMessage());
         rescue(ex);
     }
 
-    public static void rescue(Exception ex) throws InterruptedException {
+    public static void rescue(Exception ex) throws InterruptedException, IOException {
         while (true) {
             String input = prompt();
             if (input.equalsIgnoreCase("type")) {

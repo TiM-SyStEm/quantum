@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.rmi.server.LogStream;
 import java.util.Date;
 
 public class Utils {
@@ -26,11 +27,10 @@ public class Utils {
         return new Date().toString();
     }
 
-    public static void clear() {
-        Utils.exec("clear");
+    public static void clear() throws InterruptedException {
+        System.out.print("\033[H\r");
         System.out.flush();
     }
-
 
     public static boolean netIsAvailable() {
         try {

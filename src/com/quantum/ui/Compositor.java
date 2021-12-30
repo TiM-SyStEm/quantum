@@ -34,13 +34,12 @@ public class Compositor {
     }
 
     public void compose() throws InterruptedException {
-        Thread.sleep(Quantum.sleepConstant);
-        Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
         this.compose(qWindow.getName());
         this.compose(qWindow.getInput());
         this.compose(LoggerBar.getRuntime());
+        Utils.clear();
         Logger.ok("Render was success", 5);
     }
 }
