@@ -20,6 +20,7 @@ public class Quantum {
     public static int interfaceLength = 0xff; // Placeholder
     public static int keyboardCode = Keys.NKBH; // Placeholder
     public static int pointer = 1;
+    public static int sleepConstant = 300;
 
     public static void main(String[] args) throws InterruptedException {
         Logger.prepare();
@@ -33,9 +34,7 @@ public class Quantum {
             Compositor globalCompositor = new Compositor(window);
             Logger.ok("Compositor creation success", 5);
             while (true) {
-                synchronized (new Object()) {
-                    globalCompositor.compose();
-                }
+                globalCompositor.compose();
                 Logger.ok("Tick", 0);
             }
         } catch (Exception ex) {

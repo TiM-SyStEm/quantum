@@ -303,8 +303,7 @@ public class IOBuffer {
         int currentLine = 1;
         for (int i = 0; i < chars.length; i++) {
             char ch = chars[i];
-            int currentPos = i;
-            if (lines.containsKey(currentPos) && lines.get(currentPos) == targetLine) {
+            if (lines.containsKey(i) && lines.get(i) == targetLine) {
                 Utils.setColor(Colors.ANSI_RESET);
                 Utils.setColor(Colors.ANSI_YELLOW_BACKGROUND);
                 System.out.print(ch == '\0' ? ' ' : ch);

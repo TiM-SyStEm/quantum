@@ -29,13 +29,18 @@ public class Compositor {
         name.show();
     }
 
+    public void compose(LoggerBar bar) {
+        bar.show();
+    }
+
     public void compose() throws InterruptedException {
-        Thread.sleep(50);
+        Thread.sleep(Quantum.sleepConstant);
         Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
         this.compose(qWindow.getName());
         this.compose(qWindow.getInput());
+        this.compose(LoggerBar.getRuntime());
         Logger.ok("Render was success", 5);
     }
 }

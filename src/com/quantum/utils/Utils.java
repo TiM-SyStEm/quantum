@@ -27,6 +27,11 @@ public class Utils {
 
     public static void clear() {
         Utils.exec("clear");
+        Utils.resetSleep();
+    }
+
+    private static void resetSleep() {
+        Quantum.sleepConstant = 50;
     }
 
     public static boolean netIsAvailable() {
@@ -82,5 +87,9 @@ public class Utils {
 
     public static void breakKeyboard() {
         Quantum.keyboardCode = Keys.NKBH;
+    }
+
+    public static void advanceSleep(int i) {
+        Quantum.sleepConstant += i;
     }
 }

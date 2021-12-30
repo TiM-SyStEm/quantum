@@ -17,7 +17,7 @@ public class KeyboardInput {
     public void show() {
         Utils.setColor(Colors.ANSI_RESET);
         System.out.print(this.getPrompt());
-        System.out.println(Quantum.keyboardCode);
+        System.out.print(Quantum.keyboardCode);
         Logger.ok("Input was received", 1);
     }
 
