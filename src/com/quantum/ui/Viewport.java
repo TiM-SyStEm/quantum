@@ -2,6 +2,7 @@ package com.quantum.ui;
 
 import com.quantum.Quantum;
 import com.quantum.elements.QElement;
+import com.quantum.kernel.IOBonus;
 import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.IOBuffer;
@@ -56,8 +57,13 @@ public class Viewport {
     }
 
     public void clear() {
+        this.clear(() -> {});
+    }
+
+    public void clear(IOBonus action) {
         this.elements.clear();
         this.stringAcc.clear();
+        action.bonus();
     }
 
     public void clearBuffer() {

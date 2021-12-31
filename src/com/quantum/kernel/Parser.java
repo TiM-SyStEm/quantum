@@ -16,6 +16,8 @@ public class Parser {
             cdr("quantum/" + Console.dir, viewport);
         } else if (parts[0].equalsIgnoreCase("clear")) {
             clear(caller, viewport);
+        } else if (parts[0].equalsIgnoreCase("echo")) {
+            Console.printText(caller, viewport, "\n%s\n".formatted(parts[1]));
         } else {
             unknown(command, caller, viewport);
         }
@@ -26,14 +28,13 @@ public class Parser {
     }
 
     private static void clear(QElement caller, Viewport viewport) {
-        viewport.clear();
-        Console.setConsolePointer(1);
+        viewport.clear(() -> Console.setConsolePointer(1));
         Quantum.pointer = 1;
     }
 
     public static void cdr(String path, Viewport v) {
         final File folder = new File(path);
-        Console.printText(null, v, String.valueOf(folder.isDirectory()));
+        Console.printText(null, v, "\n");
         for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
             if (fileEntry.isDirectory()) {
                 Console.printText(null, v, fileEntry.getName() + "/\n");

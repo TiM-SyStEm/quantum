@@ -1,6 +1,7 @@
 package com.quantum.utils;
 
 import com.quantum.Quantum;
+import com.quantum.kernel.Console;
 import com.quantum.logger.Logger;
 
 import java.util.ArrayList;
@@ -36,7 +37,7 @@ public class IOBuffer {
     public void pushBuffer() {
         pages.add(new IOBuffer());
         pagesCount++;
-        pages.get(pagesCount).clear();
+        last().clear();
     }
 
     public void popBuffer() {
@@ -115,7 +116,7 @@ public class IOBuffer {
     }
 
     public void patch() {
-        int length = this.length();
+        int length = last().length();
         currentBuffer().deleteCharAt(length - 1); currentBuffer().deleteCharAt(length - 2);
     }
 
@@ -126,17 +127,19 @@ public class IOBuffer {
     }
 
     public void addChar(char ch) {
-        if (this.cursor + 1 >= this.length()) {
+        if (last().cursor + 1 >= last().length()) {
             this.pushBuffer();
             this.clear();
+            Console.setConsolePointer(1);
+            Logger.ok("Generated new page of IOBuffer", 1);
         }
         if (ch == '\n') {
             last().line++;
-            last().setCursor(this.nextCursor);
-            last().lines.put(this.cursor, this.line);
-            last().setNextCursor(Utils.getWidth() * this.line);
+            last().setCursor(last().nextCursor);
+            last().lines.put(last().cursor, last().line);
+            last().setNextCursor(Utils.getWidth() * last().line);
         } else {
-            last().setCharAt(this.cursor, ch);
+            last().setCharAt(last().cursor, ch);
             last().cursor++;
         }
     }

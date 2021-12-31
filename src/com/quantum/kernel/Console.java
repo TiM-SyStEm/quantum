@@ -45,7 +45,7 @@ public class Console {
     }
 
     public static void printText(QElement c, Viewport v, String text) {
-        consolePointer += text.split("\n").length;
+        consolePointer += text.chars().filter(ch -> ch == '\n').count();
         v.add(new QTextElement(text));
     }
 

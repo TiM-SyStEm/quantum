@@ -12,7 +12,7 @@ public class Logger {
     public static void prepare() {
         try (FileWriter writer = new FileWriter("quantum/quantum.log", false)) {
             writer.write("");
-        } catch (IOException ex) {
+        } catch (IOException ignored) {
 
         }
     }
