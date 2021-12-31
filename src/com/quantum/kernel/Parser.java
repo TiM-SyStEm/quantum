@@ -1,11 +1,13 @@
 package com.quantum.kernel;
 
+import com.quantum.Quantum;
 import com.quantum.elements.QElement;
 import com.quantum.elements.QTextElement;
 import com.quantum.ui.Viewport;
 import com.quantum.utils.Utils;
 
 import java.io.File;
+import java.util.Objects;
 
 public class Parser {
     public static void parse(String command, QElement caller, Viewport viewport) {
@@ -24,17 +26,18 @@ public class Parser {
     }
 
     private static void clear(QElement caller, Viewport viewport) {
-        Console.printText(caller, viewport, Utils.strDup("\n", Utils.getHeight() - 2));
+        viewport.clear();
+        Console.setConsolePointer(1);
+        Quantum.pointer = 1;
     }
 
     public static void cdr(String path, Viewport v) {
         final File folder = new File(path);
-        for (final File fileEntry : folder.listFiles()) {
+        Console.printText(null, v, String.valueOf(folder.isDirectory()));
+        for (final File fileEntry : Objects.requireNonNull(folder.listFiles())) {
             if (fileEntry.isDirectory()) {
-                cdr(fileEntry.getAbsolutePath(), v);
-            } else {
-                Console.printText(null, v, "\n" + fileEntry.getName() + "\n");
-            }
+                Console.printText(null, v, fileEntry.getName() + "/\n");
+            } else Console.printText(null, v, fileEntry.getName() + "\n");
         }
     }
 }

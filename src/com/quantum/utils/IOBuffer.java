@@ -36,6 +36,7 @@ public class IOBuffer {
     public void pushBuffer() {
         pages.add(new IOBuffer());
         pagesCount++;
+        pages.get(pagesCount).clear();
     }
 
     public void popBuffer() {
@@ -44,7 +45,7 @@ public class IOBuffer {
     }
 
     public StringBuilder currentBuffer() {
-        return pages.get(pagesCount).getBuilder();
+        return last().builder;
     }
 
     public StringBuilder deleteCharAt(int index) {
@@ -52,31 +53,23 @@ public class IOBuffer {
     }
 
     public int length() {
-        return builder.length();
+        return currentBuffer().length();
     }
 
     public void setLength(int newLength) {
-        builder.setLength(newLength);
-    }
-
-    public char charAt(int index) {
-        return builder.charAt(index);
+        currentBuffer().setLength(newLength);
     }
 
     public void setCharAt(int index, char ch) {
-        if (index == this.length()) {
-            this.clear();
-            builder.setCharAt(0, ch);
-        } else
-        builder.setCharAt(index, ch);
+        currentBuffer().setCharAt(index, ch);
     }
 
     public void clear() {
-        this.setLength(0);
-        this.setCursor(0);
-        this.setNextCursor(Utils.getWidth());
-        this.setLine(1);
-        this.setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
+        last().setLength(0);
+        last().setCursor(0);
+        last().setNextCursor(Utils.getWidth());
+        last().setLine(1);
+        last().setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
     }
 
     public String substring(int start) {
@@ -113,16 +106,8 @@ public class IOBuffer {
         this.cursor = cursor;
     }
 
-    public int getNextCursor() {
-        return nextCursor;
-    }
-
     public void setNextCursor(int nextCursor) {
         this.nextCursor = nextCursor;
-    }
-
-    public int getLine() {
-        return line;
     }
 
     public void setLine(int line) {
@@ -131,7 +116,7 @@ public class IOBuffer {
 
     public void patch() {
         int length = this.length();
-        this.deleteCharAt(length - 2); this.deleteCharAt(length - 2);
+        currentBuffer().deleteCharAt(length - 1); currentBuffer().deleteCharAt(length - 2);
     }
 
     public void addString(String str) {
@@ -141,20 +126,24 @@ public class IOBuffer {
     }
 
     public void addChar(char ch) {
+        if (this.cursor + 1 >= this.length()) {
+            this.pushBuffer();
+            this.clear();
+        }
         if (ch == '\n') {
-            this.line++;
-            this.setCursor(this.nextCursor);
-            lines.put(this.cursor, this.line);
-            this.setNextCursor(Utils.getWidth() * this.line);
+            last().line++;
+            last().setCursor(this.nextCursor);
+            last().lines.put(this.cursor, this.line);
+            last().setNextCursor(Utils.getWidth() * this.line);
         } else {
-            this.setCharAt(this.cursor, ch);
-            this.cursor++;
+            last().setCharAt(this.cursor, ch);
+            last().cursor++;
         }
     }
 
     public void render() {
         // I'm stuck at this for 1-2 hours =(
-        char[] chars = builder.toString().toCharArray();
+        char[] chars = last().toString().toCharArray();
         int targetLine = Quantum.pointer;
         int currentLine = 1;
         for (int i = 0; i < chars.length; i++) {
@@ -171,15 +160,15 @@ public class IOBuffer {
     }
 
     public StringBuilder getBuilder() {
-        return builder;
+        return currentBuffer();
     }
 
     public void setBuilder(StringBuilder builder) {
-        this.builder = builder;
+        last().builder = builder;
     }
 
     @Override
     public String toString() {
-        return builder.toString();
+        return currentBuffer().toString();
     }
 }

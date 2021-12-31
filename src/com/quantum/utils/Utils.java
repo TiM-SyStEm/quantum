@@ -28,7 +28,7 @@ public class Utils {
     }
 
     public static void clear() throws InterruptedException {
-        System.out.print("\033[H\r");
+        System.out.print("\033[H");
         System.out.flush();
     }
 

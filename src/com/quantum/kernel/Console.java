@@ -17,6 +17,7 @@ public class Console {
     private static int consolePointer = 1;
     private static ArrayList<QElement> consoleElements = new ArrayList<>();
     public static String dir = "root";
+    private static final Object lock = new Object();
 
     public static void start() throws InterruptedException {
         Utils.setDirectory("quantum/root");
@@ -26,9 +27,13 @@ public class Console {
         Logger.ok("Abstract window packing was success", 5);
         Compositor compositor = new Compositor(window);
         Logger.ok("Compositor class was created success", 5);
-        while (true) {
-            compositor.compose();
-            Logger.ok("Tick", 0);
+        compositor.compose();
+        Logger.ok("Tick", 0);
+        synchronized (lock) {
+             while (true) {
+                 compositor.compose();
+                 Logger.ok("Tick", 0);
+             }
         }
     }
 
@@ -53,4 +58,7 @@ public class Console {
         genPrompt(caller, viewport);
     }
 
+    public static void setConsolePointer(int consolePointer) {
+        Console.consolePointer = consolePointer;
+    }
 }

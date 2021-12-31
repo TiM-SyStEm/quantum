@@ -1,6 +1,7 @@
 package com.quantum.ui;
 
 import com.quantum.Quantum;
+import com.quantum.kernel.ScreenSaver;
 import com.quantum.logger.Logger;
 import com.quantum.utils.Colors;
 import com.quantum.utils.Utils;
@@ -8,6 +9,7 @@ import com.quantum.utils.Utils;
 public class Compositor {
 
     private QWindow qWindow;
+    private boolean first;
 
     public Compositor(QWindow qWindow) {
         this.qWindow = qWindow;
@@ -34,12 +36,16 @@ public class Compositor {
     }
 
     public void compose() throws InterruptedException {
+        if (Quantum.screenSave) {
+            ScreenSaver.save();
+            return;
+        }
+        Utils.clear();
         this.compose(qWindow.getTaskbar());
         this.compose(qWindow.getViewport());
         this.compose(qWindow.getName());
         this.compose(qWindow.getInput());
         this.compose(LoggerBar.getRuntime());
-        Utils.clear();
         Logger.ok("Render was success", 5);
     }
 }

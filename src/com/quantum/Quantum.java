@@ -24,9 +24,13 @@ public class Quantum {
     public static int interfaceLength = 0xff; // Placeholder
     public static int keyboardCode = Keys.NKBH; // Placeholder
     public static int pointer = 1;
-    public static int sleepConstant = 50;
+    public static String screenSaverPicture = "quantum/root/.savers/screensaver.png";
+    public static boolean screenSave = false;
 
     public static void main(String[] args) throws InterruptedException, IOException {
+        Utils.clear();
+        Quantum.pointer = 1;
+        Logger.ok("Pointer settings was restored successfully", 1);
         Logger.prepare();
         Services.start();
         Logger.ok("Services activated success", 2);
@@ -41,18 +45,5 @@ public class Quantum {
             Logger.ok("Stopping all services", 5);
             Rescue.main(ex);
         }
-    }
-
-
-    private static ArrayList<QElement> genHelloWorld() {
-        ArrayList<QElement> elements = new ArrayList<>();
-        elements.add(new QTextElement("Write text, please!\n"));
-        elements.add(new QRudeInputField(">> ", Quantum::genFields, 2));
-        return elements;
-    }
-
-    private static void genFields(QElement caller, Viewport viewport) {
-        viewport.add(new QTextElement("\n" + caller.toString() + "\n"));
-        viewport.add(new QRudeInputField(">> ", Quantum::genFields, 4));
     }
 }
