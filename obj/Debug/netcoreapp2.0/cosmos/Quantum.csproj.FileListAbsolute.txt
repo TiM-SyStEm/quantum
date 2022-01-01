@@ -1,0 +1,10 @@
+C:\Users\sxuar\source\repos\Quantum\Quantum\bin\Debug\netcoreapp2.0\cosmos\Quantum.deps.json
+C:\Users\sxuar\source\repos\Quantum\Quantum\bin\Debug\netcoreapp2.0\cosmos\Quantum.dll
+C:\Users\sxuar\source\repos\Quantum\Quantum\bin\Debug\netcoreapp2.0\cosmos\Quantum.pdb
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.csproj.AssemblyReference.cache
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.AssemblyInfoInputs.cache
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.AssemblyInfo.cs
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.csproj.CoreCompileInputs.cache
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.dll
+C:\Users\sxuar\source\repos\Quantum\Quantum\obj\Debug\netcoreapp2.0\cosmos\Quantum.pdb
