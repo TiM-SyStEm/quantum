@@ -28,7 +28,7 @@ namespace Quantum
 
         public static void CDR()
         {
-            var directory_list = Directory.GetFiles(@"0:\");
+            var directory_list = Directory.GetFiles(Kernel.dir());
             foreach (var file in directory_list)
             {
                 Console.WriteLine(file);
@@ -39,10 +39,12 @@ namespace Quantum
         {
             try
             {
-                File.Create(@"0:\" + name);
+                File.Create(Kernel.dir() + name);
             } catch (Exception e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Unable to touch: " + e.ToString());
+                Console.ResetColor();
             }
         }
 
@@ -50,10 +52,25 @@ namespace Quantum
         {
             try
             {
-                File.Delete(@"0:\" + v);
+                File.Delete(Kernel.dir() + v);
             } catch (Exception e)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Unable to remove: " + e.ToString());
+                Console.ResetColor();
+            }
+        }
+
+        public static void Mkdir(string dir)
+        {
+            try
+            {
+                Directory.CreateDirectory(Kernel.dir());
+            } catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Unable to create dir: " + e.ToString());
+                Console.ResetColor();
             }
         }
     }

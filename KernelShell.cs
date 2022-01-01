@@ -7,9 +7,11 @@ namespace Quantum
 {
     class KernelShell
     {
+
+        public static string dir = "";
         private static string ShellPrompt()
         {
-            Console.Write("|>");
+            Console.Write(dir == "" ? "root~" : "root~" + dir + "~");
             return Console.ReadLine();
         }
 
@@ -63,6 +65,16 @@ namespace Quantum
                 case "clear":
                     {
                         Console.Clear();
+                        break;
+                    }
+                case "mkdir":
+                    {
+                        VFS.Mkdir(parts[1]);
+                        break;
+                    }
+                case "cd":
+                    {
+                        KernelShell.dir = parts[1];
                         break;
                     }
 

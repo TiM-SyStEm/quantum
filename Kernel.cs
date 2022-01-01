@@ -8,6 +8,11 @@ namespace Quantum
 {
     public class Kernel : Sys.Kernel
     {
+
+        public static string dir()
+        {
+            return KernelShell.dir == "" ? @"0:\" : @"0:\" + KernelShell.dir;
+        }
         protected override void BeforeRun()
         {
             Console.ForegroundColor = ConsoleColor.Green;
