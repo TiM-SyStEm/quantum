@@ -7,6 +7,7 @@ import com.quantum.ui.Viewport;
 import com.quantum.utils.Utils;
 
 import java.io.File;
+import java.util.List;
 import java.util.Objects;
 
 public class Parser {
@@ -17,7 +18,7 @@ public class Parser {
         } else if (parts[0].equalsIgnoreCase("clear")) {
             clear(caller, viewport);
         } else if (parts[0].equalsIgnoreCase("echo")) {
-            Console.printText(caller, viewport, "\n%s\n".formatted(parts[1]));
+            Console.printText(caller, viewport, "\n%s\n".formatted(String.join(" ", List.of(parts).subList(1, parts.length))));
         } else {
             unknown(command, caller, viewport);
         }

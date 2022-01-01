@@ -38,11 +38,20 @@ public class IOBuffer {
         pages.add(new IOBuffer());
         pagesCount++;
         last().clear();
+        Logger.ok("New buffer", 1);
+        Logger.ok("Pages count: " + this.pagesCount, 1);
     }
 
     public void popBuffer() {
         pages.remove(pagesCount);
         pagesCount--;
+    }
+
+    public void resetBuffers() {
+        pages.clear();
+        pagesCount = 0;
+        pages.add(new IOBuffer());
+        last().clear();
     }
 
     public StringBuilder currentBuffer() {
@@ -71,6 +80,10 @@ public class IOBuffer {
         last().setNextCursor(Utils.getWidth());
         last().setLine(1);
         last().setLength(Quantum.interfaceLength * (Utils.getHeight() - 6));
+    }
+
+    private void setPagesCount(int i) {
+        this.pagesCount = i;
     }
 
     public String substring(int start) {

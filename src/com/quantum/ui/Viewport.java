@@ -36,6 +36,7 @@ public class Viewport {
         getStringAcc().render();
         Logger.ok("Rendering viewport", 5);
         clearBuffer();
+        stringAcc.resetBuffers();
         Logger.ok("Buffer was cleaned", 1);
         Utils.setColor(Colors.ANSI_RESET);
     }
