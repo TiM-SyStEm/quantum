@@ -10,45 +10,15 @@ namespace Quantum
     {
         protected override void BeforeRun()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             VFS.Init();
             Console.WriteLine("Quantum boot was success. Entering kernel shell");
+            Console.ResetColor();
         }
 
         protected override void Run()
         {
-            while (true)
-            {
-                string prompt = ShellPrompt();
-                string[] parts = prompt.Split(" ");
-                switch(parts[0])
-                {
-                    case "echo":
-                    {
-                        for (int i = 1; i < parts.Length; i++)
-                        {
-                            Console.Write(parts[i] + " ");
-                        }
-                        Console.WriteLine();
-                        break;
-                    }
-
-                    case "cdr":
-                    {
-                        break;
-                    }
-                    case "shutdown":
-                    {
-                        Sys.Power.Shutdown();
-                        break;
-                    }
-                }
-            }
-        }
-
-        public string ShellPrompt()
-        {
-            Console.Write("|>");
-            return Console.ReadLine();
+            KernelShell.start();
         }
     }
 }
