@@ -84,6 +84,11 @@ namespace Quantum
                         KernelGrep.Grep(parts);
                         break;
                     }
+                case "redirect":
+                    {
+                        KernelGrep.redirect(parts);
+                        break;
+                    }
                 case "to":
                     {
                         string acc = String.Empty;
