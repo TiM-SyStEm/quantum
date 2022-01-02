@@ -12,4 +12,9 @@ Roadmap:
 * Executable `.elf` format
 * Quantum-project products
 * Select OS menu
-* Grep command
+* Grep command - DONE!
+* Ask user to format device
+* Permissions system
+* Users management
+* Own filesys idea - DONE! (No folders. only root directory)
+* Redirect command (redirect command output to a file)
