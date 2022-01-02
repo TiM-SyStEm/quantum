@@ -21,3 +21,6 @@ Roadmap:
 * Change color of terminal command (color command)
 * Download file from internet (curl command)
 * Date Managament
+* Corrupt disk command
+* Repair disk command
+* Diskinfo util (will be part of quantum-project)
