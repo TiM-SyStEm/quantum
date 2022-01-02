@@ -12,3 +12,4 @@ Roadmap:
 * Executable `.elf` format
 * Quantum-project products
 * Select OS menu
+* Grep command
