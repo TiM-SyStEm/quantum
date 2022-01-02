@@ -19,3 +19,4 @@ Roadmap:
 * Own filesys idea - DONE! (No folders. only root directory)
 * Redirect command (redirect command output to a file) - DONE!
 * Change color of terminal command (color command)
+* Download file from internet (curl command)
