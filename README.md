@@ -23,4 +23,6 @@ Roadmap:
 * Date Managament
 * Corrupt disk command
 * Repair disk command
-* Diskinfo util (will be part of quantum-project)
+* Portable-Disk-Util (will be part of quantum-project)
+* ReadOnly, WriteOnly, ReadWrite permissions
+* Zipper util
