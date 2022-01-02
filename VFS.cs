@@ -13,7 +13,7 @@ namespace Quantum
             Console.WriteLine("Do you want to enable filesystem?");
             Console.WriteLine("All non-FAT32 devices will be formatted!");
             Console.WriteLine("[y/n]");
-            var key = Console.ReadKey(false);
+            var key = Console.ReadKey(true);
             if (key.KeyChar == 'y')
             {
                 VFS.Init();
@@ -36,7 +36,7 @@ namespace Quantum
                     if (Console.ReadKey(true).KeyChar == 'y')
                     {
                         Console.WriteLine("Formatting '" + d.Name + "'");
-                        fs.Format(d.Name, "FAT32", false);
+                        Format(d.Name);
                         Console.WriteLine("Success!");
                     } else
                     {
@@ -47,9 +47,27 @@ namespace Quantum
             }
         }
 
-        public static void Format(string v)
+        public static void Format(string v, string t)
         {
-            fs.Format(v, "FAT32", false);
+            foreach (var d in fs.GetDisks())
+            {
+                for (int i = 0; i < d.Partitions.Count; i++)
+                {
+                    d.FormatPartition(i, t, false);
+                }
+            }
+        }
+
+        public static void SLB(int index, string label)
+        {
+            Kernel.print(index.ToString());
+            Kernel.print(label);
+            fs.SetFileSystemLabel(index.ToString() + @":\", label);
+        }
+
+        public static void Format(string v1)
+        {
+            Format(v1, "FAT32");
         }
 
         public static void Names()
@@ -113,7 +131,7 @@ namespace Quantum
             Kernel.print("Name    Label    Type    Size    TSize    MBSize    TMBSize");
             foreach (DriveInfo d in DriveInfo.GetDrives())
             {
-                Kernel.print(d.Name + "    " + d.VolumeLabel + "    " + DriveT(d.DriveType) + "    " + d.AvailableFreeSpace + "    " + d.TotalSize + "    " + (d.AvailableFreeSpace / 1024))
+                Kernel.print(d.Name + "    " + d.VolumeLabel + "    " + DriveT(d.DriveType) + "    " + d.AvailableFreeSpace + "    " + d.TotalSize + "    " + (d.AvailableFreeSpace / 1024) + "    " + (d.TotalFreeSpace / 1024));
             }
         }
 
@@ -236,19 +254,20 @@ namespace Quantum
 
         public static void PRTCLR()
         {
-            fs.Format("0", "FAT32", false);
+            Format(Kernel.dir());
         }
 
         public static void Corrupt()
         {
-            fs.Format("0", "NTFS", false);
+            Kernel.print("'corrupt' is depricated because of it's useless and dangerous!");
+            Kernel.print("it was a bad idea to implement it in first versions.");
         }
 
         public static void To(string file, string acc)
         {
             try
             {
-                File.WriteAllText(file, acc);
+                File.WriteAllText(Kernel.dir() + file, acc);
             }
             catch (Exception e)
             {

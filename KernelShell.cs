@@ -110,6 +110,14 @@ namespace Quantum
                         dir = parts[1];
                         break;
                     }
+                case "hello":
+                    {
+                        Kernel.print("      This software is part of quantum-project!");
+                        Kernel.print("           Hello - greets you everyday.");
+                        Kernel.print("===================================================");
+                        Kernel.print("Hello, World!");
+                        break;
+                    }
 
                 default:
                     {

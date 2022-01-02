@@ -65,6 +65,18 @@ namespace Quantum
                         VFS.Summary();
                         break;
                     }
+                case "slb":
+                    {
+                        int position = 2;
+                        int index = int.Parse(parts[position++]);
+                        string label = String.Empty;
+                        for (;position < parts.Length; position++)
+                        {
+                            label += parts[position] + " ";
+                        }
+                        VFS.SLB(index, label);
+                        break;
+                    }
                 case "help":
                     {
                         Kernel.print("           PDU - Portable Disk Util. 1.0.0");

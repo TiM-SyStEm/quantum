@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Quantum
 {
@@ -47,8 +48,15 @@ namespace Quantum
             filename = parts[position];
             KernelShell.Interpret(acc);
             string output = Kernel.deGrep();
-            VFS.Touch(filename);
-            VFS.To(filename, output);
+            try
+            {
+                File.WriteAllText(Kernel.dir() + filename, output);
+            } catch (Exception e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Kernel.print("Unable to redirect input: " + e.ToString());
+                Console.ResetColor();
+            }
         }
     }
 }
