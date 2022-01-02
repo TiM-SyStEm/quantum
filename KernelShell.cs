@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Sys = Cosmos.System;
+using System.IO;
 
 namespace Quantum
 {
@@ -9,6 +10,7 @@ namespace Quantum
     {
 
         public static string dir = "";
+        public static string previous = "";
         private static string ShellPrompt()
         {
             Console.Write(dir == "" ? "root~" : "root~" + dir + "~");
@@ -31,12 +33,11 @@ namespace Quantum
                     {
                         for (int i = 1; i < parts.Length; i++)
                         {
-                            Console.Write(parts[i] + " ");
+                            Kernel.printk(parts[i] + " ");
                         }
-                        Console.WriteLine();
+                        Kernel.print();
                         break;
                     }
-
                 case "cdr":
                     {
                         VFS.CDR();
@@ -45,6 +46,11 @@ namespace Quantum
                 case "rm":
                     {
                         VFS.RM(parts[1]);
+                        break;
+                    }
+                case "prtclr":
+                    {
+                        VFS.PRTCLR();
                         break;
                     }
                 case "touch":
@@ -64,24 +70,35 @@ namespace Quantum
                     }
                 case "clear":
                     {
-                        Console.Clear();
+                        Kernel.clear();
                         break;
                     }
-                case "mkdir":
+                    
+                case "cat":
                     {
-                        VFS.Mkdir(parts[1]);
+                        VFS.Cat(parts[1]);
                         break;
                     }
-                case "cd":
+                case "grep":
                     {
-                        KernelShell.dir = parts[1];
+                        KernelGrep.Grep(parts);
+                        break;
+                    }
+                case "to":
+                    {
+                        string acc = String.Empty;
+                        for (int i = 2; i < parts.Length; i++)
+                        {
+                            acc += parts[i] + " ";
+                        }
+                        VFS.To(parts[1], acc);
                         break;
                     }
 
                 default:
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("Unknown command: " + prompt);
+                        Kernel.print("Unknown command: " + prompt);
                         Console.ResetColor();
                         break;
                     }

@@ -20,8 +20,12 @@
         <CosmosDebugPort>Serial: COM1</CosmosDebugPort>
         <Launch>VMware</Launch>
         <Profile>VMware</Profile>
-        <Description>Use VMware Player or Workstation to deploy and debug.</Description>
+        <Description>Open source OS Kernel.</Description>
         <PxeInterface>192.168.0.8</PxeInterface>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <Optimize>true</Optimize>
     </PropertyGroup>
 
     <ItemGroup>
