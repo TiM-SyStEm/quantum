@@ -76,6 +76,14 @@ namespace Quantum
             }
         }
 
+        public static void TMBSize()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + (d.TotalFreeSpace / 1024).ToString());
+            }
+        }
+
         public static void Labels()
         {
             foreach (DriveInfo d in DriveInfo.GetDrives())
@@ -97,6 +105,15 @@ namespace Quantum
             foreach (DriveInfo d in DriveInfo.GetDrives())
             {
                 Kernel.print(d.Name + ": " + DriveT(d.DriveType));
+            }
+        }
+
+        public static void Summary()
+        {
+            Kernel.print("Name    Label    Type    Size    TSize    MBSize    TMBSize");
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + "    " + d.VolumeLabel + "    " + DriveT(d.DriveType) + "    " + d.AvailableFreeSpace + "    " + d.TotalSize + "    " + (d.AvailableFreeSpace / 1024))
             }
         }
 

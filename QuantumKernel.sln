@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumKernel", "QuantumKernel\QuantumKernel.csproj", "{2F39EA76-C170-43D8-A097-318F2518A4EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F39EA76-C170-43D8-A097-318F2518A4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F39EA76-C170-43D8-A097-318F2518A4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F39EA76-C170-43D8-A097-318F2518A4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F39EA76-C170-43D8-A097-318F2518A4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5656ED62-E4A9-457A-B6A6-A668836CBD9F}
+	EndGlobalSection
+EndGlobal

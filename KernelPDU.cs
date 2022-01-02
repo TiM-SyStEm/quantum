@@ -45,6 +45,11 @@ namespace Quantum
                         VFS.MBSize();
                         break;
                     }
+                case "tmbsizes":
+                    {
+                        VFS.TMBSize();
+                        break;
+                    }
                 case "format":
                     {
                         VFS.Format(parts[2]);
@@ -53,6 +58,11 @@ namespace Quantum
                 case "ir":
                     {
                         VFS.IsReady();
+                        break;
+                    }
+                case "summary":
+                    {
+                        VFS.Summary();
                         break;
                     }
                 case "help":
@@ -68,6 +78,8 @@ namespace Quantum
                         Kernel.print("tsizes - prints total sizes of disks");
                         Kernel.print("ir - is disks ready?");
                         Kernel.print("format ID - formats disk with ID");
+                        Kernel.print("mbsizes - prints mb size of disks");
+                        Kernel.print("tmbsizes - prints total mb size of disks");
                         Kernel.print("=========================================================");
                         break;
                     }
