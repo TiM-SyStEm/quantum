@@ -20,3 +20,4 @@ Roadmap:
 * Redirect command (redirect command output to a file) - DONE!
 * Change color of terminal command (color command)
 * Download file from internet (curl command)
+* Date Managament
