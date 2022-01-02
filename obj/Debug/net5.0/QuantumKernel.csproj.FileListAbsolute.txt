@@ -1,0 +1,12 @@
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.csproj.AssemblyReference.cache
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.AssemblyInfoInputs.cache
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.AssemblyInfo.cs
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.csproj.CoreCompileInputs.cache
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\bin\Debug\net5.0\QuantumKernel.deps.json
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\bin\Debug\net5.0\QuantumKernel.dll
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\bin\Debug\net5.0\ref\QuantumKernel.dll
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\bin\Debug\net5.0\QuantumKernel.pdb
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.dll
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\ref\QuantumKernel.dll
+C:\Users\sxuar\source\repos\QuantumKernel\QuantumKernel\obj\Debug\net5.0\QuantumKernel.pdb
