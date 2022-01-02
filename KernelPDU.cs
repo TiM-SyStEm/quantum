@@ -40,6 +40,11 @@ namespace Quantum
                         VFS.TotalSize();
                         break;
                     }
+                case "mbsizes":
+                    {
+                        VFS.MBSize();
+                        break;
+                    }
                 case "format":
                     {
                         VFS.Format(parts[2]);

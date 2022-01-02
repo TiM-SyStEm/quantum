@@ -6,10 +6,10 @@ namespace Quantum
     class KernelShell
     {
 
-        public static string dir = "";
+        public static string dir = "0";
         private static string ShellPrompt()
         {
-            Console.Write(dir == "" ? "root~" : "root~" + dir + "~");
+            Console.Write(dir == "0" ? "root~" : "root~" + dir + "~");
             return Console.ReadLine();
         }
 

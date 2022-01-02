@@ -68,6 +68,14 @@ namespace Quantum
             }
         }
 
+        public static void MBSize()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + (d.AvailableFreeSpace / 1024).ToString());
+            }
+        }
+
         public static void Labels()
         {
             foreach (DriveInfo d in DriveInfo.GetDrives())
