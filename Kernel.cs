@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Linq;
-using System.IO;
 using Sys = Cosmos.System;
 
 namespace Quantum
@@ -15,7 +11,7 @@ namespace Quantum
 
         public static string dir()
         {
-            return Directory.GetCurrentDirectory();
+            return KernelShell.dir + ":\\";
         }
         protected override void BeforeRun()
         {
@@ -23,6 +19,7 @@ namespace Quantum
             VFS.TryInit();
             Console.WriteLine("Quantum boot was success. Entering kernel shell");
             Console.ResetColor();
+            Console.Beep();
         }
 
         protected override void Run()

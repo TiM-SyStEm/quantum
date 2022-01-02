@@ -1,6 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Text;
 
 namespace Quantum
 {
@@ -43,7 +41,7 @@ namespace Quantum
             for (;position < parts.Length; position++)
             {
                 if (parts[position] == "|") break;
-                acc += parts[position];
+                acc += parts[position] + " ";
             }
             position++; // skip "|"
             filename = parts[position];

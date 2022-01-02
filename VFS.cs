@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using FS = Cosmos.System.FileSystem;
 using System.IO;
 
@@ -24,20 +22,128 @@ namespace Quantum
                 Console.WriteLine("Skipped.");
             }
         }
+
         public static void Init()
         {
-            Cosmos.System.FileSystem.VFS.VFSManager.RegisterVFS(fs);
+            FS.VFS.VFSManager.RegisterVFS(fs);
             foreach (DriveInfo d in DriveInfo.GetDrives())
             {
                 Console.WriteLine("Drive {0}", d.Name);
                 Console.WriteLine("Type: {0}", d.DriveFormat);
                 if (d.DriveFormat != "FAT32")
                 {
-                    Console.WriteLine("Formatting '" + d.Name + "'");
-                    fs.Format(d.Name, "FAT32", false);
-                    Console.WriteLine("Success!");
+                    Console.WriteLine("Drive {0} is not FAT32. Want to format it?", d.Name);
+                    if (Console.ReadKey(true).KeyChar == 'y')
+                    {
+                        Console.WriteLine("Formatting '" + d.Name + "'");
+                        fs.Format(d.Name, "FAT32", false);
+                        Console.WriteLine("Success!");
+                    } else
+                    {
+                        Console.WriteLine("Skipped.");
+                    }
                 }
                 Console.WriteLine("Filesystem prepared success!");
+            }
+        }
+
+        public static void Format(string v)
+        {
+            fs.Format(v, "FAT32", false);
+        }
+
+        public static void Names()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name.ToString());
+            }
+        }
+
+        public static void Sizes()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + d.AvailableFreeSpace.ToString());
+            }
+        }
+
+        public static void Labels()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + d.VolumeLabel.ToString());
+            }
+        }
+
+        public static void Formats()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + d.DriveFormat.ToString());
+            }
+        }
+
+        public static void Types()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + DriveT(d.DriveType));
+            }
+        }
+
+        private static string DriveT(DriveType d)
+        {
+            switch (d)
+            {
+                case DriveType.Unknown:
+                    {
+                        return "Unknown";
+                    }
+                case DriveType.NoRootDirectory:
+                    {
+                        return "NoRootDirectory";
+                    }
+                case DriveType.Removable:
+                    {
+                        return "USB/Removable";
+                    }
+                case DriveType.Fixed:
+                    {
+                        return "Fixed";
+                    }
+                case DriveType.CDRom:
+                    {
+                        return "CDRom";
+                    }
+                case DriveType.Network:
+                    {
+                        return "Network";
+                    }
+                case DriveType.Ram:
+                    {
+                        return "RAM";
+                    }
+                default:
+                    {
+                        return "???";
+                    }
+            }
+        }
+
+        public static void TotalSize()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + d.TotalSize.ToString());
+            }
+        }
+
+        public static void IsReady()
+        {
+            foreach (DriveInfo d in DriveInfo.GetDrives())
+            {
+                Kernel.print(d.Name + ": " + d.IsReady.ToString());
             }
         }
 
@@ -106,6 +212,11 @@ namespace Quantum
         public static void PRTCLR()
         {
             fs.Format("0", "FAT32", false);
+        }
+
+        public static void Corrupt()
+        {
+            fs.Format("0", "NTFS", false);
         }
 
         public static void To(string file, string acc)

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using Sys = Cosmos.System;
-using System.IO;
 
 namespace Quantum
 {
@@ -10,7 +7,6 @@ namespace Quantum
     {
 
         public static string dir = "";
-        public static string previous = "";
         private static string ShellPrompt()
         {
             Console.Write(dir == "" ? "root~" : "root~" + dir + "~");
@@ -97,6 +93,21 @@ namespace Quantum
                             acc += parts[i] + " ";
                         }
                         VFS.To(parts[1], acc);
+                        break;
+                    }
+                case "pdu":
+                    {
+                        KernelPDU.interact(parts);
+                        break;
+                    }
+                case "corrupt":
+                    {
+                        VFS.Corrupt();
+                        break;
+                    }
+                case "sel":
+                    {
+                        dir = parts[1];
                         break;
                     }
 
