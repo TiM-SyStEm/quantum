@@ -6,7 +6,7 @@ namespace Quantum
 {
     class VFS
     {
-        static FS.CosmosVFS fs = new FS.CosmosVFS();
+        public static FS.CosmosVFS fs = new FS.CosmosVFS();
 
         public static void TryInit()
         {

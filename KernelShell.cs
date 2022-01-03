@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using Sys = Cosmos.System;
 
 namespace Quantum
@@ -23,7 +24,7 @@ namespace Quantum
         public static void Interpret(string prompt)
         {
             string[] parts = prompt.Split(" ");
-            switch (parts[0])
+            switch (parts[0].ToLower())
             {
                 case "echo":
                     {
@@ -116,6 +117,11 @@ namespace Quantum
                         Kernel.print("           Hello - greets you everyday.");
                         Kernel.print("===================================================");
                         Kernel.print("Hello, World!");
+                        break;
+                    }
+                case "curl":
+                    {
+                        KernelCurl.start(parts);
                         break;
                     }
 

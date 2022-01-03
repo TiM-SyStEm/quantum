@@ -17,6 +17,7 @@ namespace Quantum
         {
             Console.ForegroundColor = ConsoleColor.Green;
             VFS.TryInit();
+            KernelCurl.Init();
             Console.WriteLine("Quantum boot was success. Entering kernel shell");
             Console.ResetColor();
             Console.Beep();
