@@ -27,5 +27,5 @@ Roadmap:
 * ReadOnly, WriteOnly, ReadWrite permissions
 * Zipper util (will be part of quantum-project)
 * Batch scripts
-* Hello command (will be part of quantum-project)
+* Hello command (will be part of quantum-project) - DONE!
 * Export command (save variable to a global enviroment)
