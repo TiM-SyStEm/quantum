@@ -22,10 +22,10 @@ Roadmap:
 * Redirect command (redirect command output to a file) - DONE!
 * Change color of terminal command (color command)
 * Download file from internet (curl command)
-* Date Managament
+* Date Managament - ALMOST DONE!
 * Portable-Disk-Util (will be part of quantum-project) - DONE!
 * ReadOnly, WriteOnly, ReadWrite permissions
-* Zipper util (will be part of quantum-project)
+* Zipper util (will be part of quantum-project) - DONE!
 * Batch scripts
 * Hello command (will be part of quantum-project) - DONE!
 * Export command (save variable to a global enviroment)
