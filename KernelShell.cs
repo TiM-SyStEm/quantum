@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Net;
+using System.IO.Compression;
 using Sys = Cosmos.System;
 
 namespace Quantum
@@ -48,6 +48,7 @@ namespace Quantum
                 case "prtclr":
                     {
                         VFS.PRTCLR();
+                        Interpret("reboot");
                         break;
                     }
                 case "touch":
@@ -70,7 +71,7 @@ namespace Quantum
                         Kernel.clear();
                         break;
                     }
-                    
+
                 case "cat":
                     {
                         VFS.Cat(parts[1]);
@@ -122,6 +123,21 @@ namespace Quantum
                 case "curl":
                     {
                         KernelCurl.start(parts);
+                        break;
+                    }
+                case "date":
+                    {
+                        Kernel.print(new DateTime().ToString());
+                        break;
+                    }
+                case "zipper":
+                    {
+                        KernelPacker.interact(parts);
+                        break;
+                    }
+                case "sizeof":
+                    {
+                        VFS.SZOF(parts[1]);
                         break;
                     }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Quantum
 {
@@ -70,11 +71,34 @@ namespace Quantum
                         int position = 2;
                         int index = int.Parse(parts[position++]);
                         string label = String.Empty;
-                        for (;position < parts.Length; position++)
+                        for (; position < parts.Length; position++)
                         {
                             label += parts[position] + " ";
                         }
                         VFS.SLB(index, label);
+                        break;
+                    }
+                case "newpart":
+                    {
+                        try
+                        {
+                            int size = int.Parse(parts[2]);
+                            int currentDisk = int.Parse(KernelShell.dir);
+                            string path = Kernel.dir();
+                            for (int i = 0; i < VFS.fs.GetDisks().Count; i++)
+                            {
+                                if (currentDisk == i)
+                                {
+                                    VFS.fs.GetDisks()[i].CreatePartition(size);
+                                    break;
+                                }
+                            }
+                        } catch (Exception e)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Kernel.print("pdu: exception: " + e.ToString());
+                            Console.ResetColor();
+                        }
                         break;
                     }
                 case "help":

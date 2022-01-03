@@ -47,14 +47,11 @@ namespace Quantum
             }
         }
 
-        public static void Format(string v, string t)
+        public static void Format(string name, string type)
         {
-            foreach (var d in fs.GetDisks())
+            foreach (var disk in fs.GetDisks())
             {
-                for (int i = 0; i < d.Partitions.Count; i++)
-                {
-                    d.FormatPartition(i, t, false);
-                }
+                disk.Clear();
             }
         }
 
@@ -67,7 +64,7 @@ namespace Quantum
 
         public static void Format(string v1)
         {
-            Format(v1, "FAT32");
+            Format(v1 + ":\\", "FAT32");
         }
 
         public static void Names()
@@ -276,6 +273,11 @@ namespace Quantum
                 Console.WriteLine("Unable to 'to' file: " + e.ToString());
                 Console.ResetColor();
             }
+        }
+
+        public static void SZOF(string path)
+        {
+            Kernel.print(File.ReadAllBytes(Kernel.dir() + path).Length.ToString());
         }
     }
 }
