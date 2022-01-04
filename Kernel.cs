@@ -62,6 +62,16 @@ namespace Quantum
             print("");
         }
 
+        internal static void Stop(string aName, string aDescription, string lastsknowaddress, string ctxinterrupt)
+        {
+            Kernel.clear();
+            Kernel.err("** CPU Exception **");
+            Kernel.err(aName);
+            Kernel.err(aDescription);
+            Kernel.err("Last known address: " + lastsknowaddress);
+            Kernel.err("CTXINT: " + ctxinterrupt);
+        }
+
         public static void clear()
         {
            if (grep)
@@ -79,5 +89,12 @@ namespace Quantum
             acc = String.Empty;
             return a;
         }
+
+        public static void err(string text)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Kernel.print(text);
+            Console.ResetColor();
+        } 
     }
 }

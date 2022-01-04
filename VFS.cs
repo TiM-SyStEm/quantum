@@ -49,9 +49,27 @@ namespace Quantum
 
         public static void Format(string name, string type)
         {
-            foreach (var disk in fs.GetDisks())
+            int index = -1;
+            for (int i = 0; i < DriveInfo.GetDrives().Length; i++)
             {
-                disk.Clear();
+                Kernel.print(DriveInfo.GetDrives()[i].Name);
+                Kernel.print(name);
+                if (DriveInfo.GetDrives()[i].Name[0] == name[0])
+                {
+                    index = i;
+                }
+            }
+
+            if (index == -1)
+            {
+                Kernel.err("pdu: partition doesn't exist!");
+                return;
+            }
+
+            var drive = fs.GetDisks()[index];
+            for (int i = 0; i < drive.Partitions.Count; i++)
+            {
+                drive.FormatPartition(i, type, true);
             }
         }
 
@@ -278,6 +296,23 @@ namespace Quantum
         public static void SZOF(string path)
         {
             Kernel.print(File.ReadAllBytes(Kernel.dir() + path).Length.ToString());
+        }
+
+        public static bool ByteArrayToFile(string fileName, byte[] byteArray)
+        {
+            try
+            {
+                using (var fs = new FileStream(fileName, FileMode.Create, FileAccess.Write))
+                {
+                    fs.Write(byteArray, 0, byteArray.Length);
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception caught in process: {0}", ex);
+                return false;
+            }
         }
     }
 }

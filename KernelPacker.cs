@@ -34,6 +34,18 @@ namespace Quantum
                         KernelPacker.Files(parts[2]);
                         break;
                     }
+                case "help":
+                    {
+                        Kernel.print("         This software is part of quantum-project!");
+                        Kernel.print("              Zipper - file packager. 1.0.0");
+                        Kernel.print("=========================================================");
+                        Kernel.print("pack ARCHIVE_NAME FILES... - pack files in ARCHIVE");
+                        Kernel.print("files ARCHIVE - prints all files in ARCHIVE");
+                        Kernel.print("help - prints help");
+                        Kernel.print("extract ARCHIVE - extract all files in ARCHIVE");
+                        Kernel.print("=========================================================");
+                        break;
+                    }
                 default:
                     {
                         Console.ForegroundColor = ConsoleColor.Red;

@@ -90,6 +90,7 @@ namespace Quantum
                                 if (currentDisk == i)
                                 {
                                     VFS.fs.GetDisks()[i].CreatePartition(size);
+                                    VFS.fs.GetDisks()[i].FormatPartition(i, "FAT32");
                                     break;
                                 }
                             }

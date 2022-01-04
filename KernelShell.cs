@@ -114,6 +114,7 @@ namespace Quantum
                     }
                 case "hello":
                     {
+                        Kernel.print("===================================================");
                         Kernel.print("      This software is part of quantum-project!");
                         Kernel.print("           Hello - greets you everyday.");
                         Kernel.print("===================================================");
