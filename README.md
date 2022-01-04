@@ -18,6 +18,8 @@ Roadmap:
 * Ask user to format device - DONE!
 * Permissions system
 * Users management
+* Find & implement way to secure R/W/RW files
+* TTS/DTTS - DONE!
 * Own filesys idea - DONE! (No folders. only root directory)
 * Redirect command (redirect command output to a file) - DONE!
 * Change color of terminal command (color command)
