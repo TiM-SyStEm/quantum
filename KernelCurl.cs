@@ -228,7 +228,7 @@ namespace Quantum
                 xClient.SendDiscoverPacket();
             }
             Console.WriteLine("DHCPCLient: sendDiscoverPacket");
-            Console.WriteLine("CURL: Success.");
+            Console.WriteLine("curl: Success.");
         }
         public static void start(string[] parts)
         {

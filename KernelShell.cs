@@ -141,6 +141,23 @@ namespace Quantum
                         VFS.SZOF(parts[1]);
                         break;
                     }
+                case "permissions":
+                    {
+                        switch (parts[1])
+                        {
+                            case "r":
+                                {
+                                    KernelRW.SetR(parts[2]);
+                                    break;
+                                }
+                            case "w":
+                                {
+                                    KernelRW.SetW(parts[2]);
+                                    break;
+                                }
+                        }
+                        break;
+                    }
 
                 default:
                     {

@@ -18,6 +18,14 @@ namespace Quantum
             Console.ForegroundColor = ConsoleColor.Green;
             VFS.TryInit();
             KernelCurl.Init();
+            try
+            {
+                KernelRW.Init();
+            } catch (Exception e)
+            {
+                Console.WriteLine("Unable to register RW permissions. Please reboot system or repair it");
+                Console.WriteLine(e.ToString());
+            }
             Console.WriteLine("Quantum boot was success. Entering kernel shell");
             Console.ResetColor();
             Console.Beep();
@@ -95,6 +103,13 @@ namespace Quantum
             Console.ForegroundColor = ConsoleColor.Red;
             Kernel.print(text);
             Console.ResetColor();
-        } 
+        }
+
+        public static void magic(string v)
+        {
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine(v);
+            Console.ResetColor();
+        }
     }
 }

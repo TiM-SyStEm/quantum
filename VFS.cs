@@ -213,7 +213,11 @@ namespace Quantum
                 if (directory_list.Length == 0) return;
                 foreach (var file in directory_list)
                 {
-                    Kernel.print(file);
+                    if (file == "sysr") Kernel.magic(".sysr             SysFile");
+                    else if (file == "sysw") Kernel.magic(".sysw             SysFile");
+                    else if (KernelRW.IsR(file)) Kernel.magic(file + "             ReadOnly");
+                    else if (KernelRW.IsW(file)) Kernel.magic(file + "             WriteOnly");
+                    else Kernel.print(file);
                 }
             } catch (Exception e)
             {
@@ -242,6 +246,11 @@ namespace Quantum
         {
             try
             {
+                if (KernelRW.IsR(v) || KernelRW.IsW(v))
+                {
+                    Kernel.err("Permission deined");
+                    return;
+                }
                 File.Delete(Kernel.dir() + v);
             }
             catch (Exception e)
@@ -257,6 +266,11 @@ namespace Quantum
         {
             try
             {
+                if (KernelRW.IsW(dir))
+                {
+                    Kernel.err("Permission denied!");
+                    return;
+                }
                 Kernel.print(File.ReadAllText(Kernel.dir() + dir));
             } catch (Exception e)
             {
@@ -282,6 +296,11 @@ namespace Quantum
         {
             try
             {
+                if (KernelRW.IsR(file))
+                {
+                    Kernel.err("Permission denied");
+                    return;
+                }
                 File.WriteAllText(Kernel.dir() + file, acc);
             }
             catch (Exception e)
@@ -302,6 +321,11 @@ namespace Quantum
         {
             try
             {
+                if (KernelRW.IsR(fileName))
+                {
+                    Kernel.err("Permission denied");
+                    return false;
+                }
                 using (var fs = new FileStream(fileName, FileMode.Create, FileAccess.Write))
                 {
                     fs.Write(byteArray, 0, byteArray.Length);
