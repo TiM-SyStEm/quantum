@@ -16,7 +16,7 @@ Roadmap:
 * Select OS menu
 * Grep command - DONE!
 * Ask user to format device - DONE!
-* Permissions system
+* Permissions system - ALMOST DONE!
 * Users management
 * Find & implement way to secure R/W/RW files
 * TTS/DTTS - DONE!
