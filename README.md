@@ -15,16 +15,16 @@ Roadmap:
 * Quantum-project products
 * Select OS menu
 * Grep command - DONE!
-* Ask user to format device
+* Ask user to format device - DONE!
 * Permissions system
 * Users management
 * Own filesys idea - DONE! (No folders. only root directory)
 * Redirect command (redirect command output to a file) - DONE!
 * Change color of terminal command (color command)
-* Download file from internet (curl command)
+* Download file from internet (curl command) - DONE!
 * Date Managament - ALMOST DONE!
 * Portable-Disk-Util (will be part of quantum-project) - DONE!
-* ReadOnly, WriteOnly, ReadWrite permissions
+* ReadOnly, WriteOnly, ReadWrite permissions - WIP!
 * Zipper util (will be part of quantum-project) - DONE!
 * Batch scripts
 * Hello command (will be part of quantum-project) - DONE!
