@@ -33,12 +33,14 @@ namespace Quantum
                 return;
             } else
             {
-                File.WriteAllText("0:\\", mode);
+                File.WriteAllText("0:\\dtts", mode);
+                Parse(mode);
             }
         }
 
         public static void Parse(string text)
         {
+            Kernel.clear();
             switch (text.Trim())
             {
                 case "":
