@@ -12,7 +12,7 @@ There are nothing intresting now!
 Roadmap:
 * Useful kernel shell
 * Executable `.elf` format
-* Quantum-project products
+* Quantum-project products - WIP!
 * Select OS menu
 * Grep command - DONE!
 * Ask user to format device - DONE!
@@ -32,3 +32,5 @@ Roadmap:
 * Batch scripts
 * Hello command (will be part of quantum-project) - DONE!
 * Export command (save variable to a global enviroment)
+* Greetings first screen
+* Installer
