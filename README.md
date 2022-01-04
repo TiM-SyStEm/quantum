@@ -33,4 +33,7 @@ Roadmap:
 * Hello command (will be part of quantum-project) - DONE!
 * Export command (save variable to a global enviroment)
 * Greetings first screen
+* 'lspci' command
+* dump hexademical view of file
+* Implement memory monitor
 * Installer
