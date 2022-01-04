@@ -17,6 +17,7 @@ namespace Quantum
         {
             Console.ForegroundColor = ConsoleColor.Green;
             VFS.TryInit();
+            KernelDTTS.Init();
             KernelCurl.Init();
             try
             {

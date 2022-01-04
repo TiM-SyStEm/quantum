@@ -215,6 +215,7 @@ namespace Quantum
                 {
                     if (file == "sysr") Kernel.magic(".sysr             SysFile");
                     else if (file == "sysw") Kernel.magic(".sysw             SysFile");
+                    else if (file == "dtts") Kernel.magic("dtts             SysFile");
                     else if (KernelRW.IsR(file)) Kernel.magic(file + "             ReadOnly");
                     else if (KernelRW.IsW(file)) Kernel.magic(file + "             WriteOnly");
                     else Kernel.print(file);
