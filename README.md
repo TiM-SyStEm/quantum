@@ -24,7 +24,8 @@ Roadmap:
 * Download file from internet (curl command) - DONE!
 * Date Managament - ALMOST DONE!
 * Portable-Disk-Util (will be part of quantum-project) - DONE!
-* ReadOnly, WriteOnly, ReadWrite permissions - WIP!
+* ReadOnly, WriteOnly, ReadWrite permissions - DONE!
+* Improve 'cdr' rendering - DONE!
 * Zipper util (will be part of quantum-project) - DONE!
 * Batch scripts
 * Hello command (will be part of quantum-project) - DONE!
