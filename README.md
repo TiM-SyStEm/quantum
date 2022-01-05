@@ -37,3 +37,6 @@ Roadmap:
 * dump hexademical view of file
 * Implement memory monitor
 * Installer
+* PS/2 controllers support
+* Graphical terminal rendering
+* PCI device scanning!
