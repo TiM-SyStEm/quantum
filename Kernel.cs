@@ -25,8 +25,6 @@ namespace Quantum
             int old = Cosmos.HAL.RTC.Second;
             changeColor(ConsoleColor.Green);
             VFS.TryInit();
-            KernelDTTS.Init();
-            KernelCurl.Init();
             try
             {
                 KernelRW.Init();
@@ -36,6 +34,8 @@ namespace Quantum
                 Console.WriteLine("Unable to register RW permissions. Please reboot system or repair it");
                 Console.WriteLine(e.ToString());
             }
+            KernelDTTS.Init();
+            KernelCurl.Init();
             Kernel.print("Quantum boot was success. Entering kernel shell");
             Console.Beep();
             bootTime = Cosmos.HAL.RTC.Second - old;
@@ -135,7 +135,7 @@ namespace Quantum
         {
             changeColor(ConsoleColor.Magenta);
             Kernel.print(v);
-            Utils.ConsoleImpl.ResetColor();
+            resetColor();
         }
     }
 }

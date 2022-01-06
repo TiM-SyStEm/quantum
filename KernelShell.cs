@@ -275,12 +275,15 @@ namespace Quantum
                         Kernel.print("Total " + count + " devices");
                         break;
                     }
+                case "force":
+                    {
+                        Kernel.AConsole = parts[1] == "graphical" ? new Drawing.GraphicalConsole() : new Drawing.VGAConsole(null);
+                        break;
+                    }
 
                 default:
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Kernel.print("Unknown command: " + prompt);
-                        Console.ResetColor();
+                        Kernel.err("Unknown command: " + prompt);
                         break;
                     }
             }

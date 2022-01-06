@@ -14,7 +14,13 @@ namespace Quantum.Utils
 
         static public void Init(TextScreenBase textScreen, bool InitScrollWheel, bool InitPS2, bool InitNetwork, bool IDEInit)
         {
-            Kernel.AConsole = VBEAvailable() ? new GraphicalConsole() : new VGAConsole(textScreen);
+            var _SVGAIIDevice = PCI.GetDevice(VendorID.VMWare, DeviceID.SVGAIIAdapter);
+
+            if (_SVGAIIDevice != null && PCI.Exists(_SVGAIIDevice) && VBE.IsAvailable() == false)
+            {
+                Kernel.AConsole = new GraphicalConsole();
+            } else 
+                Kernel.AConsole = VBEAvailable() ? new GraphicalConsole() : new VGAConsole(textScreen);
             Kernel.clear();
             Kernel.print("PCI Work Started...");
             PCI.Setup();

@@ -55,7 +55,7 @@ namespace Quantum
             catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Kernel.print("Unable to redirect input: " + e.ToString());
+                Kernel.err("Unable to redirect input: " + e.ToString());
                 Console.ResetColor();
             }
         }

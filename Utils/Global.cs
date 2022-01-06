@@ -17,10 +17,12 @@ namespace Quantum.Utils
 
             Quantum.Utils.QuantumPCIPlug.Init(textScreen, InitScroolWheel, InitPS2, InitNetwork, IDEInit);
 
-            Cosmos.System.Global.mDebugger.Send("HW Init");
+            Kernel.print("HW Init");
 
             Cosmos.System.Network.NetworkStack.Init();
             Cosmos.System.Global.mDebugger.Send("Network Stack Init");
+
+            
 
             Cosmos.System.Global.NumLock = false;
             Cosmos.System.Global.CapsLock = false;

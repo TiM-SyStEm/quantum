@@ -18,7 +18,7 @@ namespace Quantum.Drawing
  
  
   
-              Aura Operating System
+              Quantum Operating System
               v{ Kernel.version }
 ");
             try

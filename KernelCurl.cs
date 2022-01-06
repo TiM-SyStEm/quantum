@@ -272,9 +272,7 @@ namespace Quantum
 
                 default:
                     {
-                        Kernel.changeColor(ConsoleColor.Red);
-                        Kernel.print("curl: unknown command: " + opinion);
-                        Kernel.resetColor();
+                        Kernel.err("curl: unknown command: " + opinion);
                         break;
                     }
             }
