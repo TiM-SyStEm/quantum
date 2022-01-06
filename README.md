@@ -33,10 +33,10 @@ Roadmap:
 * Hello command (will be part of quantum-project) - DONE!
 * Export command (save variable to a global enviroment)
 * Greetings first screen
-* 'lspci' command
+* 'lspci' command - DONE!
 * dump hexademical view of file
-* Implement memory monitor
+* Implement memory monitor - DONE!
 * Installer
-* PS/2 controllers support
-* Graphical terminal rendering
+* PS/2 controllers support - WIP!
+* Graphical terminal rendering - DONE!
 * PCI device scanning!
