@@ -1,11 +1,10 @@
 ﻿using System;
-using System.IO;
 
 namespace Quantum
 {
     class KernelPDU
     {
-        public static void interact(string[] parts) 
+        public static void interact(string[] parts)
         {
             string opinion = parts[1];
 
@@ -94,7 +93,8 @@ namespace Quantum
                                     break;
                                 }
                             }
-                        } catch (Exception e)
+                        }
+                        catch (Exception e)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Kernel.print("pdu: exception: " + e.ToString());

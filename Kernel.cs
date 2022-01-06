@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using Sys = Cosmos.System;
 
 namespace Quantum
@@ -8,28 +9,39 @@ namespace Quantum
 
         public static string acc = String.Empty;
         public static bool grep = false;
+        public static string version = "142022";
+        public static double bootTime = 0;
+        public static Drawing.Console AConsole;
 
         public static string dir()
         {
             return KernelShell.dir + ":\\";
         }
+
         protected override void BeforeRun()
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Utils.Global.Init(null);
+            Kernel.print("Global initialization success!");
+            int old = Cosmos.HAL.RTC.Second;
+            changeColor(ConsoleColor.Green);
             VFS.TryInit();
             KernelDTTS.Init();
             KernelCurl.Init();
             try
             {
                 KernelRW.Init();
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine("Unable to register RW permissions. Please reboot system or repair it");
                 Console.WriteLine(e.ToString());
             }
-            Console.WriteLine("Quantum boot was success. Entering kernel shell");
-            Console.ResetColor();
+            Kernel.print("Quantum boot was success. Entering kernel shell");
             Console.Beep();
+            bootTime = Cosmos.HAL.RTC.Second - old;
+            bootTime = Math.Abs(bootTime);
+            Drawing.Logo.Show();
+            resetColor();
         }
 
         protected override void Run()
@@ -37,7 +49,8 @@ namespace Quantum
             try
             {
                 KernelShell.start();
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Caught error: " + e.ToString());
@@ -53,7 +66,7 @@ namespace Quantum
                 acc += text;
                 return;
             }
-            Console.Write(text);
+            Kernel.AConsole.Write(text.ToCharArray());
         }
 
         public static void print(string text)
@@ -63,12 +76,24 @@ namespace Quantum
                 acc += text + "\n";
                 return;
             }
-            Console.WriteLine(text);
+            Utils.ConsoleImpl.WriteLine(text);
         }
 
         public static void print()
         {
             print("");
+        }
+
+        public static void changeColor(ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+            AConsole.Foreground = color;
+        }
+
+        public static void resetColor()
+        {
+            Console.ForegroundColor = ConsoleColor.White;
+            AConsole.Foreground = ConsoleColor.White;
         }
 
         internal static void Stop(string aName, string aDescription, string lastsknowaddress, string ctxinterrupt)
@@ -83,12 +108,12 @@ namespace Quantum
 
         public static void clear()
         {
-           if (grep)
+            if (grep)
             {
                 acc = String.Empty;
                 return;
             }
-            Console.Clear();
+            Utils.ConsoleImpl.Clear();
         }
 
         public static string deGrep()
@@ -101,16 +126,16 @@ namespace Quantum
 
         public static void err(string text)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            Utils.ConsoleImpl.set_ForegroundColor(ConsoleColor.Red);
             Kernel.print(text);
-            Console.ResetColor();
+            Utils.ConsoleImpl.ResetColor();
         }
 
         public static void magic(string v)
         {
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine(v);
-            Console.ResetColor();
+            changeColor(ConsoleColor.Magenta);
+            Kernel.print(v);
+            Utils.ConsoleImpl.ResetColor();
         }
     }
 }

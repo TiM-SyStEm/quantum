@@ -1,6 +1,6 @@
 ﻿using System;
-using FS = Cosmos.System.FileSystem;
 using System.IO;
+using FS = Cosmos.System.FileSystem;
 
 namespace Quantum
 {
@@ -10,17 +10,7 @@ namespace Quantum
 
         public static void TryInit()
         {
-            Console.WriteLine("Do you want to enable filesystem?");
-            Console.WriteLine("All non-FAT32 devices will be formatted!");
-            Console.WriteLine("[y/n]");
-            var key = Console.ReadKey(true);
-            if (key.KeyChar == 'y')
-            {
-                VFS.Init();
-            } else
-            {
-                Console.WriteLine("Skipped.");
-            }
+            VFS.Init();
         }
 
         public static void Init()
@@ -28,22 +18,23 @@ namespace Quantum
             FS.VFS.VFSManager.RegisterVFS(fs);
             foreach (DriveInfo d in DriveInfo.GetDrives())
             {
-                Console.WriteLine("Drive {0}", d.Name);
-                Console.WriteLine("Type: {0}", d.DriveFormat);
+                Kernel.print("Drive: " + d.Name);
+                Kernel.print("Type: " + d.DriveFormat);
                 if (d.DriveFormat != "FAT32")
                 {
-                    Console.WriteLine("Drive {0} is not FAT32. Want to format it?", d.Name);
+                    Kernel.print("Drive " + d.Name + " is not FAT32. Want to format it?");
                     if (Console.ReadKey(true).KeyChar == 'y')
                     {
-                        Console.WriteLine("Formatting '" + d.Name + "'");
+                        Kernel.print("Formatting '" + d.Name + "'");
                         Format(d.Name);
-                        Console.WriteLine("Success!");
-                    } else
+                        Kernel.print("Success!");
+                    }
+                    else
                     {
-                        Console.WriteLine("Skipped.");
+                        Kernel.print("Skipped.");
                     }
                 }
-                Console.WriteLine("Filesystem prepared success!");
+                Kernel.print("Filesystem prepared success!");
             }
         }
 
@@ -215,12 +206,13 @@ namespace Quantum
                 {
                     if (file == "sysr") Kernel.magic(".sysr             SysFile");
                     else if (file == "sysw") Kernel.magic(".sysw             SysFile");
-                    else if (file == "dtts") Kernel.magic("dtts              SysFile");
+                    else if (file == "dtts") Kernel.magic(".dtts             SysFile");
                     else if (KernelRW.IsR(file)) Kernel.magic(file + "             ReadOnly");
                     else if (KernelRW.IsW(file)) Kernel.magic(file + "             WriteOnly");
                     else Kernel.print(file);
                 }
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Kernel.deGrep();
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -234,7 +226,8 @@ namespace Quantum
             try
             {
                 File.Create(Kernel.dir() + name);
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Kernel.deGrep();
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -273,7 +266,8 @@ namespace Quantum
                     return;
                 }
                 Kernel.print(File.ReadAllText(Kernel.dir() + dir));
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Kernel.deGrep();
                 Console.ForegroundColor = ConsoleColor.Red;

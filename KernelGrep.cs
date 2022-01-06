@@ -11,14 +11,14 @@ namespace Quantum
             int position = 1;
             string acc = String.Empty;
             string regex = String.Empty;
-            for (;position < parts.Length; position++)
+            for (; position < parts.Length; position++)
             {
                 if (parts[position] == "|") break;
                 acc += parts[position] + " ";
             }
             position++; // skip "|"
 
-            for (;position < parts.Length; position++)
+            for (; position < parts.Length; position++)
             {
                 regex += parts[position];
             }
@@ -29,7 +29,7 @@ namespace Quantum
                 if (line.Contains(regex))
                 {
                     Kernel.print(line);
-                }   
+                }
             }
         }
 
@@ -39,7 +39,7 @@ namespace Quantum
             int position = 1;
             string filename = String.Empty;
             string acc = String.Empty;
-            for (;position < parts.Length; position++)
+            for (; position < parts.Length; position++)
             {
                 if (parts[position] == "|") break;
                 acc += parts[position] + " ";
@@ -51,7 +51,8 @@ namespace Quantum
             try
             {
                 File.WriteAllText(Kernel.dir() + filename, output);
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Kernel.print("Unable to redirect input: " + e.ToString());

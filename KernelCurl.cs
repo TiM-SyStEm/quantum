@@ -3,7 +3,6 @@ using Cosmos.System.Network;
 using Cosmos.System.Network.Config;
 using Cosmos.System.Network.IPv4;
 using Cosmos.System.Network.IPv4.TCP;
-using Cosmos.System.Network.IPv4.TCP.FTP;
 using Cosmos.System.Network.IPv4.UDP.DHCP;
 using Cosmos.System.Network.IPv4.UDP.DNS;
 using System;
@@ -89,7 +88,7 @@ namespace Quantum
 
             try
             {
-                Console.WriteLine("Sending ping to " + destination.ToString());
+                Kernel.print("Sending ping to " + destination.ToString());
 
                 var xClient = new ICMPClient();
                 xClient.Connect(destination);
@@ -106,18 +105,18 @@ namespace Quantum
 
                     if (second == -1)
                     {
-                        Console.WriteLine("Destination host unreachable.");
+                        Kernel.print("Destination host unreachable.");
                         PacketLost++;
                     }
                     else
                     {
                         if (second < 1)
                         {
-                            Console.WriteLine("Reply received from " + endpoint.Address.ToString() + " time < 1s");
+                            Kernel.print("Reply received from " + endpoint.Address.ToString() + " time < 1s");
                         }
                         else if (second >= 1)
                         {
-                            Console.WriteLine("Reply received from " + endpoint.Address.ToString() + " time " + second + "s");
+                            Kernel.print("Reply received from " + endpoint.Address.ToString() + " time " + second + "s");
                         }
 
                         PacketReceived++;
@@ -139,7 +138,7 @@ namespace Quantum
             Kernel.print("    Packets: Sent = " + PacketSent + ", Received = " + PacketReceived + ", Lost = " + PacketLost + " (" + PercentLoss + "% loss)");
         }
     }
-    
+
     class DNS
     {
         public static void Execute(string arg)
@@ -148,7 +147,7 @@ namespace Quantum
             string domainname;
 
             xClient.Connect(DNSConfig.Server(0));
-            Console.WriteLine("DNS used : " + DNSConfig.Server(0).ToString());
+            Kernel.print("DNS used : " + DNSConfig.Server(0).ToString());
             xClient.SendAsk(arg);
             domainname = arg;
 
@@ -163,7 +162,7 @@ namespace Quantum
             }
             else
             {
-                Console.WriteLine(domainname + " is " + address.ToString());
+                Kernel.print(domainname + " is " + address.ToString());
             }
         }
     }
@@ -174,36 +173,36 @@ namespace Quantum
         {
             if (NetworkStack.ConfigEmpty())
             {
-                Console.WriteLine("No network configuration detected! Use ipconfig /help");
+                Kernel.print("No network configuration detected! Use ipconfig /help");
             }
             foreach (NetworkDevice device in NetworkConfig.Keys)
             {
                 switch (device.CardType)
                 {
                     case CardType.Ethernet:
-                        Console.Write("Ethernet Card : " + device.NameID + " - " + device.Name);
+                        Kernel.print("Ethernet Card : " + device.NameID + " - " + device.Name);
                         break;
                     case CardType.Wireless:
-                        Console.Write("Wireless Card : " + device.NameID + " - " + device.Name);
+                        Kernel.print("Wireless Card : " + device.NameID + " - " + device.Name);
                         break;
                 }
                 if (NetworkConfig.CurrentConfig.Key == device)
                 {
-                    Console.WriteLine(" (current)");
+                    Kernel.print(" (current)");
                 }
                 else
                 {
-                    Console.WriteLine();
+                    Kernel.print();
                 }
 
-                Console.WriteLine("MAC Address          : " + device.MACAddress.ToString());
-                Console.WriteLine("IP Address           : " + NetworkConfig.Get(device).IPAddress.ToString());
-                Console.WriteLine("Subnet mask          : " + NetworkConfig.Get(device).SubnetMask.ToString());
-                Console.WriteLine("Default Gateway      : " + NetworkConfig.Get(device).DefaultGateway.ToString());
-                Console.WriteLine("DNS Nameservers      : ");
+                Kernel.print("MAC Address          : " + device.MACAddress.ToString());
+                Kernel.print("IP Address           : " + NetworkConfig.Get(device).IPAddress.ToString());
+                Kernel.print("Subnet mask          : " + NetworkConfig.Get(device).SubnetMask.ToString());
+                Kernel.print("Default Gateway      : " + NetworkConfig.Get(device).DefaultGateway.ToString());
+                Kernel.print("DNS Nameservers      : ");
                 foreach (Address dnsnameserver in DNSConfig.DNSNameservers)
                 {
-                    Console.WriteLine("                       " + dnsnameserver.ToString());
+                    Kernel.print("                       " + dnsnameserver.ToString());
                 }
             }
         }
@@ -214,7 +213,7 @@ namespace Quantum
         public static void Execute()
         {
 
-            Kernel.print("Soon");     
+            Kernel.print("Soon");
         }
     }
 
@@ -222,13 +221,14 @@ namespace Quantum
     {
         public static void Init()
         {
-            Console.WriteLine("NetworkStack: maybe success.");
+            Kernel.print("NetworkStack: maybe success.");
             using (var xClient = new DHCPClient())
             {
-                xClient.SendDiscoverPacket();
+                Kernel.print("Waiting...");
+                Kernel.print("Success!");
             }
-            Console.WriteLine("DHCPCLient: sendDiscoverPacket");
-            Console.WriteLine("curl: Success.");
+            Kernel.print("DHCPCLient: sendDiscoverPacket");
+            Kernel.print("curl: Success.");
         }
         public static void start(string[] parts)
         {
@@ -256,7 +256,7 @@ namespace Quantum
                         break;
                     }
                 case "ftp":
-                    { 
+                    {
                         Kernel.print("Port: 21");
                         FTP.Execute();
                         break;
@@ -269,12 +269,12 @@ namespace Quantum
                         }
                         break;
                     }
-                    
+
                 default:
                     {
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Kernel.changeColor(ConsoleColor.Red);
                         Kernel.print("curl: unknown command: " + opinion);
-                        Console.ResetColor();
+                        Kernel.resetColor();
                         break;
                     }
             }

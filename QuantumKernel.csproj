@@ -6,7 +6,7 @@
         <Platform>cosmos</Platform>
         <SupportsX86Intrinsics>false</SupportsX86Intrinsics>
         <SelfContained>True</SelfContained>
-        <BinFormat>ELF</BinFormat>
+        <BinFormat>Bin</BinFormat>
         <StackCorruptionDetectionEnabled>True</StackCorruptionDetectionEnabled>
         <StackCorruptionDetectionLevel>MethodFooters</StackCorruptionDetectionLevel>
         <Deployment>ISO</Deployment>
@@ -16,6 +16,7 @@
         <ISOFile>bin\Debug\net5.0\QuantumKernel.iso</ISOFile>
         <CompileVBEMultiboot>False</CompileVBEMultiboot>
         <ExtractMapFile>False</ExtractMapFile>
+        <VMwareEdition>Workstation</VMwareEdition>
     </PropertyGroup>
 
     <PropertyGroup>

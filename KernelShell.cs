@@ -1,7 +1,8 @@
 ﻿using Cosmos.System.Graphics;
 using System;
-using System.IO.Compression;
+using static Cosmos.HAL.PCIDevice;
 using static Cosmos.HAL.VGADriver;
+using Dat = Cosmos.HAL.RTC;
 using Sys = Cosmos.System;
 
 namespace Quantum
@@ -10,16 +11,17 @@ namespace Quantum
     {
 
         public static string dir = "0";
+        public static Utils.KernelMemoryMonitor Monitor = new Utils.KernelMemoryMonitor();
         private static string ShellPrompt()
         {
-            Console.Write(dir == "0" ? "root~" : "root~" + dir + "~");
-            return Console.ReadLine();
+            Kernel.printk(dir == "0" ? "root~" : "root~" + dir + "~");
+            return Utils.ConsoleImpl.ReadLine();
         }
 
         private static string ExtendedPrompt()
         {
-            Console.Write(">");
-            string prompt = Console.ReadLine();
+            Kernel.printk(">");
+            string prompt = Utils.ConsoleImpl.ReadLine();
             return prompt.EndsWith("\\") ? prompt + ExtendedPrompt() : prompt;
         }
 
@@ -130,7 +132,7 @@ namespace Quantum
                     }
                 case "date":
                     {
-                        Kernel.print(new DateTime().ToString());
+                        Kernel.print(Date());
                         break;
                     }
                 case "zipper":
@@ -251,6 +253,28 @@ namespace Quantum
                         KernelDTTS.Set(parts[1]);
                         break;
                     }
+                case "tech":
+                    {
+                        Monitor.Monitor();
+                        Kernel.print("Computer name: " + Kernel.version);
+                        Kernel.print("Date and time: " + Date());
+                        Kernel.print("Boot time: " + Kernel.bootTime);
+                        Kernel.print("Amount of RAM: " + Cosmos.Core.CPU.GetAmountOfRAM());
+                        Kernel.print("Free RAM: " + Monitor.FreeMemory);
+                        Kernel.print("CPU brand string: " + Cosmos.Core.CPU.GetCPUBrandString());
+                        break;
+                    }
+                case "lspci":
+                    {
+                        int count = 0;
+                        foreach (Cosmos.HAL.PCIDevice device in Cosmos.HAL.PCI.Devices)
+                        {
+                            Kernel.print(D2(device.bus) + ":" + D2(device.slot) + ":" + D2(device.function) + " - " + "0x" + D4(DecToHex(device.VendorID)) + ":0x" + D4(DecToHex(device.DeviceID)) + " : " + DeviceClass.GetTypeString(device) + ": " + DeviceClass.GetDeviceString(device));
+                            count++;
+                        }
+                        Kernel.print("Total " + count + " devices");
+                        break;
+                    }
 
                 default:
                     {
@@ -259,6 +283,71 @@ namespace Quantum
                         Console.ResetColor();
                         break;
                     }
+            }
+        }
+
+        public static string D4(string text)
+        {
+            if (text.Length < 4)
+            {
+                switch (text.Length)
+                {
+                    case 3:
+                        return "0" + text;
+                    case 2:
+                        return "00" + text;
+                    case 1:
+                        return "000" + text;
+                    default:
+                        return text;
+                }
+            }
+            else
+            {
+                return text;
+            }
+        }
+
+        public static string DecToHex(int x)
+        {
+            string result = "";
+
+            while (x != 0)
+            {
+                if ((x % 16) < 10)
+                    result = x % 16 + result;
+                else
+                {
+                    string temp = "";
+
+                    switch (x % 16)
+                    {
+                        case 10: temp = "A"; break;
+                        case 11: temp = "B"; break;
+                        case 12: temp = "C"; break;
+                        case 13: temp = "D"; break;
+                        case 14: temp = "E"; break;
+                        case 15: temp = "F"; break;
+                    }
+
+                    result = temp + result;
+                }
+
+                x /= 16;
+            }
+
+            return result;
+        }
+
+        public static string D2(uint number)
+        {
+            if (number < 10)
+            {
+                return "0" + number;
+            }
+            else
+            {
+                return number.ToString();
             }
         }
         public static void start()
@@ -273,6 +362,11 @@ namespace Quantum
                 prompt = prompt.Replace("\\", "");
                 Interpret(prompt);
             }
+        }
+
+        public static string Date()
+        {
+            return "20" + Dat.Year + "   Month " + Dat.Month + " Day of the month:" + Dat.DayOfTheMonth + "   " + Dat.Hour + ":" + (Dat.Second.ToString().Length == 2 ? Dat.Second : "0" + Dat.Second);
         }
     }
 }

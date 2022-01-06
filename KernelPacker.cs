@@ -107,12 +107,15 @@ namespace Quantum
                     header = parts[1];
                     writing = true;
                 }
-                else if (parts[0] == "END_ARCHIVE_STAMP" && parts[1] == header) {
+                else if (parts[0] == "END_ARCHIVE_STAMP" && parts[1] == header)
+                {
                     content[header] = acc;
                     acc = String.Empty;
                     header = String.Empty;
                     writing = false;
-                } else {
+                }
+                else
+                {
                     acc += line + "\n";
                 }
             }
@@ -147,7 +150,8 @@ namespace Quantum
                     acc += "END_ARCHIVE_STAMP " + file + "\n";
                 }
                 VFS.To(archive, acc);
-            } catch (Exception e)
+            }
+            catch (Exception e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Kernel.print("zipper: caught exception: " + e.ToString());
