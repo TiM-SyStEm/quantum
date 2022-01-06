@@ -1,2 +1,2 @@
 # quantum
-MS-DOS-like VIrtual OS
+First version of QUANTUM. Was deprecated because it's made on Java!
