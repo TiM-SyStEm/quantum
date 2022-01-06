@@ -5,6 +5,8 @@ using Cosmos.Core;
 using Cosmos.HAL.Network;
 using Cosmos.HAL.Drivers;
 using Quantum.Drawing;
+using Cosmos.HAL.BlockDevice;
+using Cosmos.System.Network.IPv4.UDP.DHCP;
 
 namespace Quantum.Utils
 {
@@ -14,6 +16,10 @@ namespace Quantum.Utils
 
         static public void Init(TextScreenBase textScreen, bool InitScrollWheel, bool InitPS2, bool InitNetwork, bool IDEInit)
         {
+            using (var xClient = new DHCPClient())
+            {
+                xClient.SendDiscoverPacket();
+            }
             var _SVGAIIDevice = PCI.GetDevice(VendorID.VMWare, DeviceID.SVGAIIAdapter);
 
             if (_SVGAIIDevice != null && PCI.Exists(_SVGAIIDevice) && VBE.IsAvailable() == false)
@@ -24,7 +30,7 @@ namespace Quantum.Utils
             Kernel.clear();
             Kernel.print("PCI Work Started...");
             PCI.Setup();
-            Kernel.print("PCI Work Finished!");
+            Kernel.print("PCI Work Finished");
 
             Kernel.print("[ Loading... ]");
             Kernel.print("Starting Cosmos kernel...");
@@ -33,7 +39,13 @@ namespace Quantum.Utils
             ACPI.Start();
             Kernel.print("ACPI Work Finished");
 
+            Kernel.print("PS/2 Work Started...");
+            //Cosmos.HAL.Global.PS2Controller.Initialize(false);
+            Kernel.print("PS/2 Work Finished");
+
+            Kernel.print("NetworkStack Work Started...");
             Cosmos.HAL.Network.NetworkInit.Init();
+            Kernel.print("NetworkStack Work Finished...");
         }
         private static bool VBEAvailable()
         {

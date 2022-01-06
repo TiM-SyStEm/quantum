@@ -206,6 +206,122 @@ namespace Quantum
                 }
             }
         }
+
+        public static void Execute(string[] arguments)
+        {
+            if (arguments[2] == "release")
+            {
+                var xClient = new DHCPClient();
+                xClient.SendReleasePacket();
+                xClient.Close();
+            }
+            else if (arguments[2] == "ask")
+            {
+                var xClient = new DHCPClient();
+                if (xClient.SendDiscoverPacket() != -1)
+                {
+                    xClient.Close();
+                    Kernel.print("Configuration applied! Your local IPv4 Address is " + NetworkConfig.CurrentConfig.Value.IPAddress.ToString() + ".");
+                }
+                else
+                {
+                    xClient.Close();
+                    Kernel.err("curl: DHCP discover failed. can't apply dynamic IPv4 addres");
+                    return;
+                }
+            }
+            else if (arguments[2] == "listnic")
+            {
+                foreach (var device in NetworkDevice.Devices)
+                {
+                    switch (device.CardType)
+                    {
+                        case CardType.Ethernet:
+                            Kernel.print("Ethernet Card - " + device.NameID + " - " + device.Name + " (" + device.MACAddress + ")");
+                            break;
+                        case CardType.Wireless:
+                            Kernel.print("Wireless Card - " + device.NameID + " - " + device.Name + " (" + device.MACAddress + ")");
+                            break;
+                    }
+                }
+            }
+            else if (arguments[2] == "set")
+            {
+                if ((arguments.Length == 4) || (arguments.Length == 5)) // ipconfig /set eth0 192.168.1.2/24 {gw}
+                {
+                    string[] adrnetwork = arguments[2].Split('/');
+                    Address ip = Address.Parse(adrnetwork[0]);
+                    NetworkDevice nic = NetworkDevice.GetDeviceByName(arguments[1]);
+                    Address gw = null;
+                    if (arguments.Length == 5)
+                    {
+                        gw = Address.Parse(arguments[3]);
+                    }
+
+                    int cidr;
+                    try
+                    {
+                        cidr = int.Parse(adrnetwork[1]);
+                    }
+                    catch (Exception ex)
+                    {
+                        Kernel.err("curl: " + ex.ToString());
+                        return;
+                    }
+                    Address subnet = Address.CIDRToAddress(cidr);
+
+                    if (nic == null)
+                    {
+                        Kernel.err("curl: coulnd't find network device");
+                        return;
+                    }
+
+                    if (ip != null && subnet != null && gw != null)
+                    {
+                        IPConfig.Enable(nic, ip, subnet, gw);
+                        Kernel.magic("Config OK!");
+                    }
+                    else if (ip != null && subnet != null)
+                    {
+                        IPConfig.Enable(nic, ip, subnet, ip);
+                        Kernel.magic("Config OK!");
+                    }
+                    else
+                    {
+                        Kernel.err("curl: can't parse IP address");
+                        return;
+                    }
+                }
+                else
+                {
+                    Kernel.err("curl: usage: ipconfig set {device} {ipv4|cidr} {gateaway|null}");
+                    return;
+                }
+            }
+            else if (arguments[2] == "nameserver")
+            {
+                if (arguments[3] == "-add")
+                {
+                    DNSConfig.Add(Address.Parse(arguments[2]));
+                    Kernel.print(arguments[2] + " has been added to nameservers.");
+                }
+                else if (arguments[3] == "-rem")
+                {
+                    DNSConfig.Remove(Address.Parse(arguments[2]));
+                    Kernel.print(arguments[2] + " has been removed from nameservers list.");
+                }
+                else
+                {
+                    Kernel.err("curl: usage: ipconfig nameserver {add|remove} {ip}");
+                    return;
+                }
+            }
+            else
+            {
+                Kernel.err("curl: bad usage");
+                return;
+            }
+        }
     }
 
     class FTP
