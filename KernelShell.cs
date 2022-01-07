@@ -11,7 +11,7 @@ namespace Quantum
     {
 
         public static string dir = "0";
-        public static Utils.KernelMemoryMonitor Monitor = new Utils.KernelMemoryMonitor();
+        public static Utils.KernelMemoryMonitor Monitor = new();
         private static string ShellPrompt()
         {
             Kernel.printk(dir == "0" ? "root~" : "root~" + dir + "~");
