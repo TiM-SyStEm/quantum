@@ -240,7 +240,7 @@ namespace Quantum
                                     VGAScreen.SetTextMode(TextSize.Size90x30);
                                     break;
                                 }
-                            case "90x50":
+                            case "90x60":
                                 {
                                     VGAScreen.SetTextMode(TextSize.Size90x60);
                                     break;
